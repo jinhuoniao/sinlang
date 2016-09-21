@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        window?.frame = UIScreen.mainScreen().bounds
+        if UserInfo.myLogin() {
+            window?.rootViewController = MyTabBarController()
+        } else {
+            window?.rootViewController = OAuthController()
+        }
+        
+        window?.makeKeyAndVisible()
         return true
     }
 

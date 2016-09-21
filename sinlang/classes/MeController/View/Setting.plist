@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>帐号管理</string>
+		<string>帐号安全</string>
+	</array>
+	<array>
+		<string>通知</string>
+		<string>隐私</string>
+		<string>通用设置</string>
+	</array>
+	<array>
+		<string>意见反馈</string>
+		<string>关于微博</string>
+	</array>
+	<array>
+		<string>清除缓存</string>
+	</array>
+	<array>
+		<string>退出微博</string>
+	</array>
+</array>
+</plist>
