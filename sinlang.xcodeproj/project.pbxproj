@@ -70,14 +70,6 @@
 		BC0145371D9244F5004C0950 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0145011D9244F5004C0950 /* UIView+WebCacheOperation.m */; };
 		BC01456E1D924518004C0950 /* PublishController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01453A1D924518004C0950 /* PublishController.swift */; };
 		BC01456F1D924518004C0950 /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01453C1D924518004C0950 /* DiscoverController.swift */; };
-		BC0145701D924518004C0950 /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01453E1D924518004C0950 /* CommentController.swift */; };
-		BC0145711D924518004C0950 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01453F1D924518004C0950 /* HomePageController.swift */; };
-		BC0145721D924518004C0950 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0145411D924518004C0950 /* CommentModel.swift */; };
-		BC0145731D924518004C0950 /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0145421D924518004C0950 /* HomePageModel.swift */; };
-		BC0145741D924518004C0950 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0145431D924518004C0950 /* PersonModel.swift */; };
-		BC0145751D924518004C0950 /* PersonalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0145441D924518004C0950 /* PersonalController.swift */; };
-		BC0145761D924518004C0950 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0145461D924518004C0950 /* CommentCell.swift */; };
-		BC0145771D924518004C0950 /* HomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0145471D924518004C0950 /* HomePageCell.swift */; };
 		BC0145781D924518004C0950 /* FollowersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0145491D924518004C0950 /* FollowersController.swift */; };
 		BC0145791D924518004C0950 /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01454A1D924518004C0950 /* FriendsController.swift */; };
 		BC01457A1D924518004C0950 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01454B1D924518004C0950 /* MeController.swift */; };
@@ -89,7 +81,6 @@
 		BC0145801D924518004C0950 /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0145531D924518004C0950 /* FriendsCell.swift */; };
 		BC0145811D924518004C0950 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0145541D924518004C0950 /* HeaderView.swift */; };
 		BC0145821D924518004C0950 /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC0145551D924518004C0950 /* Setting.plist */; };
-		BC0145831D924518004C0950 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0145571D924518004C0950 /* MessageController.swift */; };
 		BC0145841D924518004C0950 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01455A1D924518004C0950 /* LoginViewController.swift */; };
 		BC0145851D924518004C0950 /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01455B1D924518004C0950 /* MyNavigationController.swift */; };
 		BC0145861D924518004C0950 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01455C1D924518004C0950 /* MyTabBarController.swift */; };
@@ -105,6 +96,21 @@
 		BC0145901D924518004C0950 /* MyPromptTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01456A1D924518004C0950 /* MyPromptTool.swift */; };
 		BC0145911D924518004C0950 /* MyTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01456B1D924518004C0950 /* MyTool.swift */; };
 		BC0145921D924518004C0950 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01456D1D924518004C0950 /* MyTabBar.swift */; };
+		BC444CD51D93A6F6008F33BB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CC91D93A6F6008F33BB /* ChatViewController.swift */; };
+		BC444CD61D93A6F6008F33BB /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CCA1D93A6F6008F33BB /* CommentController.swift */; };
+		BC444CD71D93A6F6008F33BB /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CCB1D93A6F6008F33BB /* HomePageController.swift */; };
+		BC444CD81D93A6F6008F33BB /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CCD1D93A6F6008F33BB /* CommentModel.swift */; };
+		BC444CD91D93A6F6008F33BB /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CCE1D93A6F6008F33BB /* HomePageModel.swift */; };
+		BC444CDA1D93A6F6008F33BB /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CCF1D93A6F6008F33BB /* PersonModel.swift */; };
+		BC444CDB1D93A6F6008F33BB /* PersonalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CD01D93A6F6008F33BB /* PersonalController.swift */; };
+		BC444CDC1D93A6F6008F33BB /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CD21D93A6F6008F33BB /* CommentCell.swift */; };
+		BC444CDD1D93A6F6008F33BB /* HomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CD31D93A6F6008F33BB /* HomePageCell.swift */; };
+		BC444CDE1D93A6F6008F33BB /* PersonalHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CD41D93A6F6008F33BB /* PersonalHeadView.swift */; };
+		BC444CE91D93A724008F33BB /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CE01D93A724008F33BB /* MessageController.swift */; };
+		BC444CEA1D93A724008F33BB /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CE21D93A724008F33BB /* ChatModel.swift */; };
+		BC444CEB1D93A724008F33BB /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CE31D93A724008F33BB /* ContactsModel.swift */; };
+		BC444CEE1D93A724008F33BB /* LeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CE71D93A724008F33BB /* LeftCell.swift */; };
+		BC444CEF1D93A724008F33BB /* RightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CE81D93A724008F33BB /* RightCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -213,14 +219,6 @@
 		BC0145011D9244F5004C0950 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		BC01453A1D924518004C0950 /* PublishController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishController.swift; sourceTree = "<group>"; };
 		BC01453C1D924518004C0950 /* DiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
-		BC01453E1D924518004C0950 /* CommentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
-		BC01453F1D924518004C0950 /* HomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
-		BC0145411D924518004C0950 /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
-		BC0145421D924518004C0950 /* HomePageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageModel.swift; sourceTree = "<group>"; };
-		BC0145431D924518004C0950 /* PersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
-		BC0145441D924518004C0950 /* PersonalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalController.swift; sourceTree = "<group>"; };
-		BC0145461D924518004C0950 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
-		BC0145471D924518004C0950 /* HomePageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageCell.swift; sourceTree = "<group>"; };
 		BC0145491D924518004C0950 /* FollowersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersController.swift; sourceTree = "<group>"; };
 		BC01454A1D924518004C0950 /* FriendsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
 		BC01454B1D924518004C0950 /* MeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
@@ -232,7 +230,6 @@
 		BC0145531D924518004C0950 /* FriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
 		BC0145541D924518004C0950 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		BC0145551D924518004C0950 /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Setting.plist; sourceTree = "<group>"; };
-		BC0145571D924518004C0950 /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
 		BC01455A1D924518004C0950 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BC01455B1D924518004C0950 /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
 		BC01455C1D924518004C0950 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
@@ -248,6 +245,21 @@
 		BC01456A1D924518004C0950 /* MyPromptTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPromptTool.swift; sourceTree = "<group>"; };
 		BC01456B1D924518004C0950 /* MyTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTool.swift; sourceTree = "<group>"; };
 		BC01456D1D924518004C0950 /* MyTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
+		BC444CC91D93A6F6008F33BB /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BC444CCA1D93A6F6008F33BB /* CommentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
+		BC444CCB1D93A6F6008F33BB /* HomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		BC444CCD1D93A6F6008F33BB /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		BC444CCE1D93A6F6008F33BB /* HomePageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageModel.swift; sourceTree = "<group>"; };
+		BC444CCF1D93A6F6008F33BB /* PersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		BC444CD01D93A6F6008F33BB /* PersonalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalController.swift; sourceTree = "<group>"; };
+		BC444CD21D93A6F6008F33BB /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		BC444CD31D93A6F6008F33BB /* HomePageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageCell.swift; sourceTree = "<group>"; };
+		BC444CD41D93A6F6008F33BB /* PersonalHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalHeadView.swift; sourceTree = "<group>"; };
+		BC444CE01D93A724008F33BB /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		BC444CE21D93A724008F33BB /* ChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		BC444CE31D93A724008F33BB /* ContactsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsModel.swift; sourceTree = "<group>"; };
+		BC444CE71D93A724008F33BB /* LeftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftCell.swift; sourceTree = "<group>"; };
+		BC444CE81D93A724008F33BB /* RightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -494,11 +506,11 @@
 		BC0145381D924518004C0950 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				BC444CDF1D93A724008F33BB /* MessageController */,
+				BC444CC81D93A6F6008F33BB /* HomePageController */,
 				BC0145391D924518004C0950 /* AddController */,
 				BC01453B1D924518004C0950 /* DiscoverController */,
-				BC01453D1D924518004C0950 /* HomePageController */,
 				BC0145481D924518004C0950 /* MeController */,
-				BC0145561D924518004C0950 /* MessageController */,
 				BC0145581D924518004C0950 /* Other */,
 			);
 			path = classes;
@@ -518,37 +530,6 @@
 				BC01453C1D924518004C0950 /* DiscoverController.swift */,
 			);
 			path = DiscoverController;
-			sourceTree = "<group>";
-		};
-		BC01453D1D924518004C0950 /* HomePageController */ = {
-			isa = PBXGroup;
-			children = (
-				BC01453E1D924518004C0950 /* CommentController.swift */,
-				BC01453F1D924518004C0950 /* HomePageController.swift */,
-				BC0145441D924518004C0950 /* PersonalController.swift */,
-				BC0145401D924518004C0950 /* Model */,
-				BC0145451D924518004C0950 /* View */,
-			);
-			path = HomePageController;
-			sourceTree = "<group>";
-		};
-		BC0145401D924518004C0950 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				BC0145411D924518004C0950 /* CommentModel.swift */,
-				BC0145421D924518004C0950 /* HomePageModel.swift */,
-				BC0145431D924518004C0950 /* PersonModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		BC0145451D924518004C0950 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				BC0145461D924518004C0950 /* CommentCell.swift */,
-				BC0145471D924518004C0950 /* HomePageCell.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		BC0145481D924518004C0950 /* MeController */ = {
@@ -583,14 +564,6 @@
 				BC0145551D924518004C0950 /* Setting.plist */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		BC0145561D924518004C0950 /* MessageController */ = {
-			isa = PBXGroup;
-			children = (
-				BC0145571D924518004C0950 /* MessageController.swift */,
-			);
-			path = MessageController;
 			sourceTree = "<group>";
 		};
 		BC0145581D924518004C0950 /* Other */ = {
@@ -651,6 +624,67 @@
 			isa = PBXGroup;
 			children = (
 				BC01456D1D924518004C0950 /* MyTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC444CC81D93A6F6008F33BB /* HomePageController */ = {
+			isa = PBXGroup;
+			children = (
+				BC444CC91D93A6F6008F33BB /* ChatViewController.swift */,
+				BC444CCA1D93A6F6008F33BB /* CommentController.swift */,
+				BC444CCB1D93A6F6008F33BB /* HomePageController.swift */,
+				BC444CCC1D93A6F6008F33BB /* Model */,
+				BC444CD01D93A6F6008F33BB /* PersonalController.swift */,
+				BC444CD11D93A6F6008F33BB /* View */,
+			);
+			path = HomePageController;
+			sourceTree = "<group>";
+		};
+		BC444CCC1D93A6F6008F33BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC444CCD1D93A6F6008F33BB /* CommentModel.swift */,
+				BC444CCE1D93A6F6008F33BB /* HomePageModel.swift */,
+				BC444CCF1D93A6F6008F33BB /* PersonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC444CD11D93A6F6008F33BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC444CD21D93A6F6008F33BB /* CommentCell.swift */,
+				BC444CD31D93A6F6008F33BB /* HomePageCell.swift */,
+				BC444CD41D93A6F6008F33BB /* PersonalHeadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC444CDF1D93A724008F33BB /* MessageController */ = {
+			isa = PBXGroup;
+			children = (
+				BC444CE01D93A724008F33BB /* MessageController.swift */,
+				BC444CE11D93A724008F33BB /* Model */,
+				BC444CE41D93A724008F33BB /* View */,
+			);
+			path = MessageController;
+			sourceTree = "<group>";
+		};
+		BC444CE11D93A724008F33BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC444CE21D93A724008F33BB /* ChatModel.swift */,
+				BC444CE31D93A724008F33BB /* ContactsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC444CE41D93A724008F33BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC444CE71D93A724008F33BB /* LeftCell.swift */,
+				BC444CE81D93A724008F33BB /* RightCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -747,25 +781,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC0145211D9244F5004C0950 /* JSONHTTPClient.m in Sources */,
+				BC444CD71D93A6F6008F33BB /* HomePageController.swift in Sources */,
 				BC0145911D924518004C0950 /* MyTool.swift in Sources */,
 				BC0145311D9244F5004C0950 /* UIButton+WebCache.m in Sources */,
 				BC01457E1D924518004C0950 /* MyWeiboController.swift in Sources */,
+				BC444CDC1D93A6F6008F33BB /* CommentCell.swift in Sources */,
 				BC0145901D924518004C0950 /* MyPromptTool.swift in Sources */,
 				BC0145801D924518004C0950 /* FriendsCell.swift in Sources */,
 				BC01452F1D9244F5004C0950 /* SDWebImageManager.m in Sources */,
-				BC0145771D924518004C0950 /* HomePageCell.swift in Sources */,
 				BC01451F1D9244F5004C0950 /* JSONModelError.m in Sources */,
-				BC0145831D924518004C0950 /* MessageController.swift in Sources */,
+				BC444CDD1D93A6F6008F33BB /* HomePageCell.swift in Sources */,
+				BC444CEA1D93A724008F33BB /* ChatModel.swift in Sources */,
 				BC0145271D9244F5004C0950 /* UIView+SDAutoLayout.m in Sources */,
 				BC0145221D9244F5004C0950 /* JSONModel+networking.m in Sources */,
-				BC0145761D924518004C0950 /* CommentCell.swift in Sources */,
+				BC444CD61D93A6F6008F33BB /* CommentController.swift in Sources */,
 				BC01452D1D9244F5004C0950 /* SDWebImageDownloader.m in Sources */,
 				BC01457B1D924518004C0950 /* FriendsModel.swift in Sources */,
-				BC0145721D924518004C0950 /* CommentModel.swift in Sources */,
 				BC0144841D924482004C0950 /* ViewController.swift in Sources */,
 				BC01456F1D924518004C0950 /* DiscoverController.swift in Sources */,
 				BC01452B1D9244F5004C0950 /* SDWebImageCompat.m in Sources */,
 				BC0145181D9244F5004C0950 /* AFSecurityPolicy.m in Sources */,
+				BC444CDB1D93A6F6008F33BB /* PersonalController.swift in Sources */,
 				BC01456E1D924518004C0950 /* PublishController.swift in Sources */,
 				BC01451E1D9244F5004C0950 /* JSONModelClassProperty.m in Sources */,
 				BC0145881D924518004C0950 /* UserInfo+CoreDataProperties.swift in Sources */,
@@ -783,43 +819,47 @@
 				BC0145341D9244F5004C0950 /* UIImage+WebP.m in Sources */,
 				BC01452A1D9244F5004C0950 /* SDImageCache.m in Sources */,
 				BC0145191D9244F5004C0950 /* AFURLConnectionOperation.m in Sources */,
-				BC0145711D924518004C0950 /* HomePageController.swift in Sources */,
 				BC01458B1D924518004C0950 /* CommentBtn.swift in Sources */,
 				BC0145331D9244F5004C0950 /* UIImage+MultiFormat.m in Sources */,
 				BC01452E1D9244F5004C0950 /* SDWebImageDownloaderOperation.m in Sources */,
 				BC0145141D9244F5004C0950 /* AFHTTPRequestOperation.m in Sources */,
 				BC0145351D9244F5004C0950 /* UIImageView+HighlightedWebCache.m in Sources */,
 				BC01458A1D924518004C0950 /* weibo.xcdatamodeld in Sources */,
-				BC0145751D924518004C0950 /* PersonalController.swift in Sources */,
+				BC444CE91D93A724008F33BB /* MessageController.swift in Sources */,
 				BC0145241D9244F5004C0950 /* JSONValueTransformer.m in Sources */,
-				BC0145701D924518004C0950 /* CommentController.swift in Sources */,
 				BC01457F1D924518004C0950 /* SettingViewController.swift in Sources */,
 				BC0144821D924482004C0950 /* AppDelegate.swift in Sources */,
+				BC444CD91D93A6F6008F33BB /* HomePageModel.swift in Sources */,
 				BC01458E1D924518004C0950 /* MD5Tool.swift in Sources */,
 				BC01451D1D9244F5004C0950 /* JSONModel.m in Sources */,
-				BC0145731D924518004C0950 /* HomePageModel.swift in Sources */,
 				BC0145261D9244F5004C0950 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				BC01457D1D924518004C0950 /* MyUserModel.swift in Sources */,
 				BC0145781D924518004C0950 /* FollowersController.swift in Sources */,
 				BC0145291D9244F5004C0950 /* NSData+ImageContentType.m in Sources */,
-				BC0145741D924518004C0950 /* PersonModel.swift in Sources */,
 				BC01451A1D9244F5004C0950 /* AFURLRequestSerialization.m in Sources */,
+				BC444CEB1D93A724008F33BB /* ContactsModel.swift in Sources */,
 				BC0145251D9244F5004C0950 /* MBProgressHUD.m in Sources */,
 				BC0145791D924518004C0950 /* FriendsController.swift in Sources */,
 				BC0145231D9244F5004C0950 /* JSONKeyMapper.m in Sources */,
+				BC444CEE1D93A724008F33BB /* LeftCell.swift in Sources */,
 				BC0145871D924518004C0950 /* OAuthController.swift in Sources */,
 				BC0145811D924518004C0950 /* HeaderView.swift in Sources */,
 				BC01452C1D9244F5004C0950 /* SDWebImageDecoder.m in Sources */,
+				BC444CD81D93A6F6008F33BB /* CommentModel.swift in Sources */,
 				BC0145161D9244F5004C0950 /* AFHTTPSessionManager.m in Sources */,
 				BC0145171D9244F5004C0950 /* AFNetworkReachabilityManager.m in Sources */,
 				BC01451B1D9244F5004C0950 /* AFURLResponseSerialization.m in Sources */,
 				BC01451C1D9244F5004C0950 /* AFURLSessionManager.m in Sources */,
 				BC0145921D924518004C0950 /* MyTabBar.swift in Sources */,
+				BC444CDA1D93A6F6008F33BB /* PersonModel.swift in Sources */,
 				BC0145301D9244F5004C0950 /* SDWebImagePrefetcher.m in Sources */,
+				BC444CD51D93A6F6008F33BB /* ChatViewController.swift in Sources */,
 				BC0145281D9244F5004C0950 /* MKAnnotationView+WebCache.m in Sources */,
+				BC444CEF1D93A724008F33BB /* RightCell.swift in Sources */,
 				BC01458F1D924518004C0950 /* MyNetworkTool.swift in Sources */,
 				BC0145321D9244F5004C0950 /* UIImage+GIF.m in Sources */,
 				BC0145891D924518004C0950 /* UserInfo.swift in Sources */,
+				BC444CDE1D93A6F6008F33BB /* PersonalHeadView.swift in Sources */,
 				BC0144961D9244E6004C0950 /* BaseRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -972,6 +1012,7 @@
 				BC0144921D924482004C0950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

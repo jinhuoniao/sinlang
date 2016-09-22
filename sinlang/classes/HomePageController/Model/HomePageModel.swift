@@ -51,6 +51,7 @@ class UserModel: JSONModel {
     
     var name: String!
     var avatarHd: String? //头像
+    var id: String!
     
     override class func keyMapper() -> JSONKeyMapper {
         return JSONKeyMapper.mapperFromUnderscoreCaseToCamelCase()

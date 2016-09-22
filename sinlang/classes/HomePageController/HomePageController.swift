@@ -55,6 +55,8 @@ class HomePageController: UITableViewController {
         let model = dataArr[indexPath.row] as! HomePageModel
         
         cell.nameB.setTitle(model.user!["name"] as? String, forState: .Normal)
+        cell.nameB.tag = (model.user!["id"] as? Int)!
+        cell.nameB.addTarget(self, action: #selector(self.nameBtnClick(_:)), forControlEvents: .TouchUpInside)
         cell.iconView.sd_setImageWithURL(NSURL.init(string: model.user!["avatar_hd"] as! String))
         cell.textL.text = model.text!
         cell.repostBtn.setTitle(model.repostsCount!, forState: .Normal)
@@ -93,6 +95,14 @@ class HomePageController: UITableViewController {
         commentController.accessToken = account[1]
         commentController.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(commentController, animated: true)
+    }
+    
+    func nameBtnClick(button: UIButton) {
+        let person = PersonalController()
+        person.uid = button.tag
+        person.accessToken = account[1]
+        person.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(person, animated: true)
     }
 
 }
