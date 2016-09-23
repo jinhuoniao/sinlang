@@ -76,8 +76,13 @@ class ChatViewController: UIViewController, UITextFieldDelegate, UITableViewDele
     
     func backBtnClick() {
         let nav = self.navigationController?.viewControllers[0] as? HomePageController
+        let mC = self.navigationController?.viewControllers[0] as? MeController
         if nav != nil {
             let tabCon = nav!.tabBarController as! MyTabBarController
+            tabCon.selectedIndex = 1
+            self.navigationController?.popToRootViewControllerAnimated(true)
+        } else if mC != nil {
+            let tabCon = mC!.tabBarController as! MyTabBarController
             tabCon.selectedIndex = 1
             self.navigationController?.popToRootViewControllerAnimated(true)
         }
@@ -93,6 +98,7 @@ class ChatViewController: UIViewController, UITextFieldDelegate, UITableViewDele
         self.tableView.reloadData()
         self.tableView.transform = CGAffineTransformTranslate(self.tableView.transform, 0, -50)
         self.tableView.height += 50
+        self.textTF.text = ""
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

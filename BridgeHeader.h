@@ -15,5 +15,9 @@
 #import <CommonCrypto/CommonCrypto.h>
 #import "JSONModel.h"
 #import "UIImageView+WebCache.h"
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import "DMHeartFlyView.h"
+#import "MJRefresh.h"
+#import "POP.h"
 
 #endif /* BridgeHeader_h */

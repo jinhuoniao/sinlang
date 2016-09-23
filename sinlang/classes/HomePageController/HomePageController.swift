@@ -15,11 +15,14 @@ class HomePageController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         account = UserInfo.mytoken()
-        self.homeMessage()
         self.tableView.registerClass(HomePageCell.self, forCellReuseIdentifier: "HomePageCell")
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.tableView.separatorStyle = .None
+        self.tableView.mj_header = MJRefreshNormalHeader.init(refreshingBlock: {
+            self.homeMessage()
+        })
+        tableView.mj_header.beginRefreshing()
     }
     
     func unReadMessage() {
@@ -34,15 +37,17 @@ class HomePageController: UITableViewController {
     func homeMessage() {
         HomePageModel.requestHomeData { (array, error) in
             if error == nil {
+                self.dataArr.removeAllObjects()
                 self.dataArr.addObjectsFromArray(array!)
                 self.tableView.reloadData()
+                self.tableView.mj_header.endRefreshing()
             } else {
                 print("请求出错")
             }
         }
     }
-
-
+    
+    
     // MARK: - Table view data source
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataArr.count
@@ -64,21 +69,21 @@ class HomePageController: UITableViewController {
         cell.commentBtn.tag = Int(model.id!)!
         cell.commentBtn.addTarget(self, action: #selector(self.commentBtnClick(_:)), forControlEvents: .TouchUpInside)
         cell.attitudeBtn.setTitle(model.attitudesCount!, forState: .Normal)
-//        if model.picUrls != nil {
-//            var arr = [String]()
-//            for pic in model.picUrls! {
-//                let dic = pic as! NSDictionary
-//                //arr.append(dic["thumbnail_pic"] as! String)
-//                arr.append(model.user!["avatar_hd"] as! String)
-//            }
-//            let myview = CommentView.init(frame: CGRectMake(0, 0, cell.myView.width, cell.myView.height), arr: arr)
-//            myview.backgroundColor = UIColor.greenColor()
-//            cell.myView = myview
-//            cell.setNeedsDisplay()
-//        } else {
-//            cell.myView.backgroundColor = UIColor.whiteColor()
-//            
-//        }
+        //        if model.picUrls != nil {
+        //            var arr = [String]()
+        //            for pic in model.picUrls! {
+        //                let dic = pic as! NSDictionary
+        //                //arr.append(dic["thumbnail_pic"] as! String)
+        //                arr.append(model.user!["avatar_hd"] as! String)
+        //            }
+        //            let myview = CommentView.init(frame: CGRectMake(0, 0, cell.myView.width, cell.myView.height), arr: arr)
+        //            myview.backgroundColor = UIColor.greenColor()
+        //            cell.myView = myview
+        //            cell.setNeedsDisplay()
+        //        } else {
+        //            cell.myView.backgroundColor = UIColor.whiteColor()
+        //
+        //        }
         
         return cell
     }
@@ -104,7 +109,6 @@ class HomePageController: UITableViewController {
         person.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(person, animated: true)
     }
-
 }
 
 
