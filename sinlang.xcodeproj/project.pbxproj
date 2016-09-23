@@ -151,12 +151,7 @@
 		BC5276831D957BCC008FF647 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC52766E1D957BCC008FF647 /* UIScrollView+MJExtension.m */; };
 		BC5276841D957BCC008FF647 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5276701D957BCC008FF647 /* UIScrollView+MJRefresh.m */; };
 		BC5276851D957BCC008FF647 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5276721D957BCC008FF647 /* UIView+MJExtension.m */; };
-		BC5276871D957C01008FF647 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5276861D957C01008FF647 /* IJKMediaFramework.framework */; };
 		BC5276891D957C0F008FF647 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5276881D957C0F008FF647 /* libz.tbd */; };
-		BC5276911D957C6F008FF647 /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52768B1D957C6F008FF647 /* DiscoverController.swift */; };
-		BC5276921D957C6F008FF647 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52768D1D957C6F008FF647 /* PlayerModel.swift */; };
-		BC5276931D957C6F008FF647 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52768E1D957C6F008FF647 /* PlayerController.swift */; };
-		BC5276941D957C6F008FF647 /* DiscoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5276901D957C6F008FF647 /* DiscoverCell.swift */; };
 		BC5276A51D957D50008FF647 /* empty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5276961D957D50008FF647 /* empty@3x.png */; };
 		BC5276A61D957D50008FF647 /* goback.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5276971D957D50008FF647 /* goback.png */; };
 		BC5276A71D957D50008FF647 /* normalMsg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5276981D957D50008FF647 /* normalMsg@3x.png */; };
@@ -172,6 +167,11 @@
 		BC5276B11D957D50008FF647 /* publish-text@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5276A31D957D50008FF647 /* publish-text@3x.png */; };
 		BC5276B21D957D50008FF647 /* publish-video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5276A41D957D50008FF647 /* publish-video@3x.png */; };
 		BC5276B41D957D9D008FF647 /* PublishButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5276B31D957D9D008FF647 /* PublishButton.swift */; };
+		BC5276BC1D958526008FF647 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5276BB1D958526008FF647 /* PlayerController.swift */; };
+		BC5276C11D958570008FF647 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5276C01D958570008FF647 /* PlayerModel.swift */; };
+		BC5276C41D95857A008FF647 /* DiscoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5276C31D95857A008FF647 /* DiscoverCell.swift */; };
+		BC5276C61D9585D7008FF647 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5276C51D9585D7008FF647 /* IJKMediaFramework.framework */; };
+		BC5276CA1D958847008FF647 /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5276C91D958847008FF647 /* DiscoverController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -415,12 +415,7 @@
 		BC5276701D957BCC008FF647 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		BC5276711D957BCC008FF647 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		BC5276721D957BCC008FF647 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
-		BC5276861D957C01008FF647 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		BC5276881D957C0F008FF647 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		BC52768B1D957C6F008FF647 /* DiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
-		BC52768D1D957C6F008FF647 /* PlayerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
-		BC52768E1D957C6F008FF647 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
-		BC5276901D957C6F008FF647 /* DiscoverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverCell.swift; sourceTree = "<group>"; };
 		BC5276961D957D50008FF647 /* empty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty@3x.png"; sourceTree = "<group>"; };
 		BC5276971D957D50008FF647 /* goback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goback.png; sourceTree = "<group>"; };
 		BC5276981D957D50008FF647 /* normalMsg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normalMsg@3x.png"; sourceTree = "<group>"; };
@@ -436,6 +431,11 @@
 		BC5276A31D957D50008FF647 /* publish-text@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publish-text@3x.png"; sourceTree = "<group>"; };
 		BC5276A41D957D50008FF647 /* publish-video@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publish-video@3x.png"; sourceTree = "<group>"; };
 		BC5276B31D957D9D008FF647 /* PublishButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishButton.swift; sourceTree = "<group>"; };
+		BC5276BB1D958526008FF647 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		BC5276C01D958570008FF647 /* PlayerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		BC5276C31D95857A008FF647 /* DiscoverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverCell.swift; sourceTree = "<group>"; };
+		BC5276C51D9585D7008FF647 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		BC5276C91D958847008FF647 /* DiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,7 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC5276891D957C0F008FF647 /* libz.tbd in Frameworks */,
-				BC5276871D957C01008FF647 /* IJKMediaFramework.framework in Frameworks */,
+				BC5276C61D9585D7008FF647 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +455,7 @@
 			isa = PBXGroup;
 			children = (
 				BC5276881D957C0F008FF647 /* libz.tbd */,
-				BC5276861D957C01008FF647 /* IJKMediaFramework.framework */,
+				BC5276C51D9585D7008FF647 /* IJKMediaFramework.framework */,
 				BC0144931D9244E6004C0950 /* BaseRequest.swift */,
 				BC0144941D9244E6004C0950 /* BaseSetting.swift */,
 				BC0144951D9244E6004C0950 /* BridgeHeader.h */,
@@ -1042,28 +1042,12 @@
 		BC52768A1D957C6F008FF647 /* DiscoverController */ = {
 			isa = PBXGroup;
 			children = (
-				BC52768B1D957C6F008FF647 /* DiscoverController.swift */,
-				BC52768C1D957C6F008FF647 /* Model */,
-				BC52768E1D957C6F008FF647 /* PlayerController.swift */,
-				BC52768F1D957C6F008FF647 /* View */,
+				BC5276C91D958847008FF647 /* DiscoverController.swift */,
+				BC5276BF1D958570008FF647 /* Model */,
+				BC5276BB1D958526008FF647 /* PlayerController.swift */,
+				BC5276C21D95857A008FF647 /* View */,
 			);
 			path = DiscoverController;
-			sourceTree = "<group>";
-		};
-		BC52768C1D957C6F008FF647 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				BC52768D1D957C6F008FF647 /* PlayerModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		BC52768F1D957C6F008FF647 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				BC5276901D957C6F008FF647 /* DiscoverCell.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		BC5276951D957D50008FF647 /* button */ = {
@@ -1092,6 +1076,22 @@
 				BC5276A41D957D50008FF647 /* publish-video@3x.png */,
 			);
 			path = publish;
+			sourceTree = "<group>";
+		};
+		BC5276BF1D958570008FF647 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC5276C01D958570008FF647 /* PlayerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC5276C21D95857A008FF647 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC5276C31D95857A008FF647 /* DiscoverCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1221,15 +1221,16 @@
 				BC5276391D957B9D008FF647 /* POPCustomAnimation.mm in Sources */,
 				BC444CEA1D93A724008F33BB /* ChatModel.swift in Sources */,
 				BC5276851D957BCC008FF647 /* UIView+MJExtension.m in Sources */,
+				BC5276CA1D958847008FF647 /* DiscoverController.swift in Sources */,
 				BC0145271D9244F5004C0950 /* UIView+SDAutoLayout.m in Sources */,
 				BC52763D1D957B9D008FF647 /* POPMath.mm in Sources */,
 				BC0145221D9244F5004C0950 /* JSONModel+networking.m in Sources */,
 				BC444CD61D93A6F6008F33BB /* CommentController.swift in Sources */,
 				BC01452D1D9244F5004C0950 /* SDWebImageDownloader.m in Sources */,
 				BC5276331D957B9D008FF647 /* POPAnimationExtras.mm in Sources */,
-				BC5276941D957C6F008FF647 /* DiscoverCell.swift in Sources */,
 				BC01457B1D924518004C0950 /* FriendsModel.swift in Sources */,
 				BC0144841D924482004C0950 /* ViewController.swift in Sources */,
+				BC5276C41D95857A008FF647 /* DiscoverCell.swift in Sources */,
 				BC52767C1D957BCC008FF647 /* MJRefreshBackNormalFooter.m in Sources */,
 				BC01452B1D9244F5004C0950 /* SDWebImageCompat.m in Sources */,
 				BC5276831D957BCC008FF647 /* UIScrollView+MJExtension.m in Sources */,
@@ -1267,11 +1268,11 @@
 				BC0145331D9244F5004C0950 /* UIImage+MultiFormat.m in Sources */,
 				BC01452E1D9244F5004C0950 /* SDWebImageDownloaderOperation.m in Sources */,
 				BC52763B1D957B9D008FF647 /* POPGeometry.mm in Sources */,
-				BC5276921D957C6F008FF647 /* PlayerModel.swift in Sources */,
 				BC0145141D9244F5004C0950 /* AFHTTPRequestOperation.m in Sources */,
 				BC0145351D9244F5004C0950 /* UIImageView+HighlightedWebCache.m in Sources */,
 				BC01458A1D924518004C0950 /* weibo.xcdatamodeld in Sources */,
 				BC444CE91D93A724008F33BB /* MessageController.swift in Sources */,
+				BC5276C11D958570008FF647 /* PlayerModel.swift in Sources */,
 				BC5276341D957B9D008FF647 /* POPAnimationRuntime.mm in Sources */,
 				BC0145241D9244F5004C0950 /* JSONValueTransformer.m in Sources */,
 				BC01457F1D924518004C0950 /* SettingViewController.swift in Sources */,
@@ -1303,13 +1304,12 @@
 				BC444CD81D93A6F6008F33BB /* CommentModel.swift in Sources */,
 				BC0145161D9244F5004C0950 /* AFHTTPSessionManager.m in Sources */,
 				BC0145171D9244F5004C0950 /* AFNetworkReachabilityManager.m in Sources */,
-				BC5276931D957C6F008FF647 /* PlayerController.swift in Sources */,
+				BC5276BC1D958526008FF647 /* PlayerController.swift in Sources */,
 				BC01451B1D9244F5004C0950 /* AFURLResponseSerialization.m in Sources */,
 				BC01451C1D9244F5004C0950 /* AFURLSessionManager.m in Sources */,
 				BC0145921D924518004C0950 /* MyTabBar.swift in Sources */,
 				BC52763E1D957B9D008FF647 /* POPPropertyAnimation.mm in Sources */,
 				BC5276821D957BCC008FF647 /* MJRefreshConst.m in Sources */,
-				BC5276911D957C6F008FF647 /* DiscoverController.swift in Sources */,
 				BC444CDA1D93A6F6008F33BB /* PersonModel.swift in Sources */,
 				BC0145301D9244F5004C0950 /* SDWebImagePrefetcher.m in Sources */,
 				BC5276751D957BCC008FF647 /* MJRefreshComponent.m in Sources */,
