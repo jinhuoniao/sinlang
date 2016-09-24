@@ -60,6 +60,7 @@ class MeController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        self.navigationItem.title = "我"
         self.view.addSubview(self.tableView)
         tableView.contentInset = UIEdgeInsetsMake(-20, 0, 0, 0)
         self.tableView.tableHeaderView = self.headerView

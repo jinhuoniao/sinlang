@@ -14,6 +14,7 @@ class HomePageController: UITableViewController {
     var dataArr = NSMutableArray()
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "首页"
         account = UserInfo.mytoken()
         self.tableView.registerClass(HomePageCell.self, forCellReuseIdentifier: "HomePageCell")
         self.tableView.delegate = self

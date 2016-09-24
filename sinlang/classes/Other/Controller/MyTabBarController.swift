@@ -30,7 +30,7 @@ class MyTabBarController: UITabBarController {
     func setupChildVcs() {
         self.setupChildVC(HomePageController(), title: "首页", image: "tabbar_home", selectedImage: "tabbar_home_selected")
         self.setupChildVC(MessageController(), title: "消息", image: "tabbar_message_center", selectedImage: "tabbar_message_center_selected")
-        self.setupChildVC(DiscoverController(), title: "发现", image: "tabbar_discover", selectedImage: "tabbar_discover_selected")
+        self.setupChildVC(DiscoverController(), title: "直播", image: "tabbar_discover", selectedImage: "tabbar_discover_selected")
         self.setupChildVC(MeController(), title: "我", image: "tabbar_profile", selectedImage: "tabbar_profile_selected")
     }
     

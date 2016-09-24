@@ -170,8 +170,65 @@
 		BC5276BC1D958526008FF647 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5276BB1D958526008FF647 /* PlayerController.swift */; };
 		BC5276C11D958570008FF647 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5276C01D958570008FF647 /* PlayerModel.swift */; };
 		BC5276C41D95857A008FF647 /* DiscoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5276C31D95857A008FF647 /* DiscoverCell.swift */; };
-		BC5276C61D9585D7008FF647 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5276C51D9585D7008FF647 /* IJKMediaFramework.framework */; };
 		BC5276CA1D958847008FF647 /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5276C91D958847008FF647 /* DiscoverController.swift */; };
+		BC52773E1D95C991008FF647 /* MusicMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52773D1D95C991008FF647 /* MusicMenuController.swift */; };
+		BC5277401D95C9CE008FF647 /* MusicTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52773F1D95C9CE008FF647 /* MusicTabBarController.swift */; };
+		BC5277431D95CA0B008FF647 /* MusicTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5277421D95CA0B008FF647 /* MusicTabBar.swift */; };
+		BC5277451D95F294008FF647 /* NavTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5277441D95F294008FF647 /* NavTitleView.swift */; };
+		BC52775C1D95FC5E008FF647 /* HearController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5277591D95FC5E008FF647 /* HearController.swift */; };
+		BC52775D1D95FC5E008FF647 /* SingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52775A1D95FC5E008FF647 /* SingController.swift */; };
+		BC52775E1D95FC5E008FF647 /* WatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52775B1D95FC5E008FF647 /* WatchController.swift */; };
+		BC5277601D95FC82008FF647 /* MyPlaySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52775F1D95FC82008FF647 /* MyPlaySlider.swift */; };
+		BC5277821D9605C5008FF647 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277811D9605C5008FF647 /* thumb.png */; };
+		BC5277CA1D960F82008FF647 /* cm2_list_icn_recent.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277851D960F82008FF647 /* cm2_list_icn_recent.png */; };
+		BC5277CB1D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277861D960F82008FF647 /* Contents.json */; };
+		BC5277CC1D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277871D960F82008FF647 /* Contents.json */; };
+		BC5277CD1D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277891D960F82008FF647 /* Contents.json */; };
+		BC5277CE1D960F82008FF647 /* icon_ios_add.png in Resources */ = {isa = PBXBuildFile; fileRef = BC52778A1D960F82008FF647 /* icon_ios_add.png */; };
+		BC5277CF1D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC52778C1D960F82008FF647 /* Contents.json */; };
+		BC5277D01D960F82008FF647 /* icon_ios_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = BC52778D1D960F82008FF647 /* icon_ios_cancel.png */; };
+		BC5277D11D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC52778F1D960F82008FF647 /* Contents.json */; };
+		BC5277D21D960F82008FF647 /* icon_ios_down.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277901D960F82008FF647 /* icon_ios_down.png */; };
+		BC5277D31D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277921D960F82008FF647 /* Contents.json */; };
+		BC5277D41D960F82008FF647 /* icon_ios_export.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277931D960F82008FF647 /* icon_ios_export.png */; };
+		BC5277D51D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277951D960F82008FF647 /* Contents.json */; };
+		BC5277D61D960F82008FF647 /* icon_ios_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277961D960F82008FF647 /* icon_ios_heart.png */; };
+		BC5277D71D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277981D960F82008FF647 /* Contents.json */; };
+		BC5277D81D960F82008FF647 /* icon_ios_heart_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277991D960F82008FF647 /* icon_ios_heart_filled.png */; };
+		BC5277D91D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC52779B1D960F82008FF647 /* Contents.json */; };
+		BC5277DA1D960F82008FF647 /* icon_ios_list.png in Resources */ = {isa = PBXBuildFile; fileRef = BC52779C1D960F82008FF647 /* icon_ios_list.png */; };
+		BC5277DB1D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC52779E1D960F82008FF647 /* Contents.json */; };
+		BC5277DC1D960F82008FF647 /* icon_ios_more.png in Resources */ = {isa = PBXBuildFile; fileRef = BC52779F1D960F82008FF647 /* icon_ios_more.png */; };
+		BC5277DD1D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277A11D960F82008FF647 /* Contents.json */; };
+		BC5277DE1D960F82008FF647 /* icon_ios_more_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277A21D960F82008FF647 /* icon_ios_more_filled.png */; };
+		BC5277DF1D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277A41D960F82008FF647 /* Contents.json */; };
+		BC5277E01D960F82008FF647 /* icon_ios_more_tiny.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277A51D960F82008FF647 /* icon_ios_more_tiny.png */; };
+		BC5277E11D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277A71D960F82008FF647 /* Contents.json */; };
+		BC5277E21D960F82008FF647 /* icon_ios_music_backward.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277A81D960F82008FF647 /* icon_ios_music_backward.png */; };
+		BC5277E31D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277AA1D960F82008FF647 /* Contents.json */; };
+		BC5277E41D960F82008FF647 /* icon_ios_music_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277AB1D960F82008FF647 /* icon_ios_music_forward.png */; };
+		BC5277E51D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277AD1D960F82008FF647 /* Contents.json */; };
+		BC5277E61D960F82008FF647 /* icon_ios_music_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277AE1D960F82008FF647 /* icon_ios_music_pause.png */; };
+		BC5277E71D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277B01D960F82008FF647 /* Contents.json */; };
+		BC5277E81D960F82008FF647 /* icon_ios_music_play.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277B11D960F82008FF647 /* icon_ios_music_play.png */; };
+		BC5277E91D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277B31D960F82008FF647 /* Contents.json */; };
+		BC5277EA1D960F82008FF647 /* icon_ios_replay _ selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277B41D960F82008FF647 /* icon_ios_replay _ selected.png */; };
+		BC5277EB1D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277B61D960F82008FF647 /* Contents.json */; };
+		BC5277EC1D960F82008FF647 /* icon_ios_replay.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277B71D960F82008FF647 /* icon_ios_replay.png */; };
+		BC5277ED1D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277B91D960F82008FF647 /* Contents.json */; };
+		BC5277EE1D960F82008FF647 /* icon_ios_search.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277BA1D960F82008FF647 /* icon_ios_search.png */; };
+		BC5277EF1D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277BC1D960F82008FF647 /* Contents.json */; };
+		BC5277F01D960F82008FF647 /* icon_ios_shuffle _ selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277BD1D960F82008FF647 /* icon_ios_shuffle _ selected.png */; };
+		BC5277F11D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277BF1D960F82008FF647 /* Contents.json */; };
+		BC5277F21D960F82008FF647 /* icon_ios_shuffle copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277C01D960F82008FF647 /* icon_ios_shuffle copy.png */; };
+		BC5277F31D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277C21D960F82008FF647 /* Contents.json */; };
+		BC5277F41D960F82008FF647 /* icon_ios_shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277C31D960F82008FF647 /* icon_ios_shuffle.png */; };
+		BC5277F51D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277C51D960F82008FF647 /* Contents.json */; };
+		BC5277F61D960F82008FF647 /* icon_ios_up.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277C61D960F82008FF647 /* icon_ios_up.png */; };
+		BC5277F71D960F82008FF647 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5277C81D960F82008FF647 /* Contents.json */; };
+		BC5277F81D960F82008FF647 /* slider.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5277C91D960F82008FF647 /* slider.png */; };
+		BC5277FB1D961B69008FF647 /* MusicLibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5277FA1D961B69008FF647 /* MusicLibraryController.swift */; };
+		BC5277FD1D962661008FF647 /* MyToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5277FC1D962661008FF647 /* MyToolBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -434,8 +491,65 @@
 		BC5276BB1D958526008FF647 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
 		BC5276C01D958570008FF647 /* PlayerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
 		BC5276C31D95857A008FF647 /* DiscoverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverCell.swift; sourceTree = "<group>"; };
-		BC5276C51D9585D7008FF647 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		BC5276C91D958847008FF647 /* DiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
+		BC52773D1D95C991008FF647 /* MusicMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicMenuController.swift; sourceTree = "<group>"; };
+		BC52773F1D95C9CE008FF647 /* MusicTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTabBarController.swift; sourceTree = "<group>"; };
+		BC5277421D95CA0B008FF647 /* MusicTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTabBar.swift; sourceTree = "<group>"; };
+		BC5277441D95F294008FF647 /* NavTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavTitleView.swift; sourceTree = "<group>"; };
+		BC5277591D95FC5E008FF647 /* HearController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HearController.swift; sourceTree = "<group>"; };
+		BC52775A1D95FC5E008FF647 /* SingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingController.swift; sourceTree = "<group>"; };
+		BC52775B1D95FC5E008FF647 /* WatchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchController.swift; sourceTree = "<group>"; };
+		BC52775F1D95FC82008FF647 /* MyPlaySlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPlaySlider.swift; sourceTree = "<group>"; };
+		BC5277811D9605C5008FF647 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		BC5277851D960F82008FF647 /* cm2_list_icn_recent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cm2_list_icn_recent.png; sourceTree = "<group>"; };
+		BC5277861D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277871D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277891D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC52778A1D960F82008FF647 /* icon_ios_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_add.png; sourceTree = "<group>"; };
+		BC52778C1D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC52778D1D960F82008FF647 /* icon_ios_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_cancel.png; sourceTree = "<group>"; };
+		BC52778F1D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277901D960F82008FF647 /* icon_ios_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_down.png; sourceTree = "<group>"; };
+		BC5277921D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277931D960F82008FF647 /* icon_ios_export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_export.png; sourceTree = "<group>"; };
+		BC5277951D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277961D960F82008FF647 /* icon_ios_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_heart.png; sourceTree = "<group>"; };
+		BC5277981D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277991D960F82008FF647 /* icon_ios_heart_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_heart_filled.png; sourceTree = "<group>"; };
+		BC52779B1D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC52779C1D960F82008FF647 /* icon_ios_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_list.png; sourceTree = "<group>"; };
+		BC52779E1D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC52779F1D960F82008FF647 /* icon_ios_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_more.png; sourceTree = "<group>"; };
+		BC5277A11D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277A21D960F82008FF647 /* icon_ios_more_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_more_filled.png; sourceTree = "<group>"; };
+		BC5277A41D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277A51D960F82008FF647 /* icon_ios_more_tiny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_more_tiny.png; sourceTree = "<group>"; };
+		BC5277A71D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277A81D960F82008FF647 /* icon_ios_music_backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_music_backward.png; sourceTree = "<group>"; };
+		BC5277AA1D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277AB1D960F82008FF647 /* icon_ios_music_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_music_forward.png; sourceTree = "<group>"; };
+		BC5277AD1D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277AE1D960F82008FF647 /* icon_ios_music_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_music_pause.png; sourceTree = "<group>"; };
+		BC5277B01D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277B11D960F82008FF647 /* icon_ios_music_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_music_play.png; sourceTree = "<group>"; };
+		BC5277B31D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277B41D960F82008FF647 /* icon_ios_replay _ selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ios_replay _ selected.png"; sourceTree = "<group>"; };
+		BC5277B61D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277B71D960F82008FF647 /* icon_ios_replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_replay.png; sourceTree = "<group>"; };
+		BC5277B91D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277BA1D960F82008FF647 /* icon_ios_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_search.png; sourceTree = "<group>"; };
+		BC5277BC1D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277BD1D960F82008FF647 /* icon_ios_shuffle _ selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ios_shuffle _ selected.png"; sourceTree = "<group>"; };
+		BC5277BF1D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277C01D960F82008FF647 /* icon_ios_shuffle copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ios_shuffle copy.png"; sourceTree = "<group>"; };
+		BC5277C21D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277C31D960F82008FF647 /* icon_ios_shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_shuffle.png; sourceTree = "<group>"; };
+		BC5277C51D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277C61D960F82008FF647 /* icon_ios_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ios_up.png; sourceTree = "<group>"; };
+		BC5277C81D960F82008FF647 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		BC5277C91D960F82008FF647 /* slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider.png; sourceTree = "<group>"; };
+		BC5277FA1D961B69008FF647 /* MusicLibraryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibraryController.swift; sourceTree = "<group>"; };
+		BC5277FC1D962661008FF647 /* MyToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyToolBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,7 +558,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC5276891D957C0F008FF647 /* libz.tbd in Frameworks */,
-				BC5276C61D9585D7008FF647 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +568,6 @@
 			isa = PBXGroup;
 			children = (
 				BC5276881D957C0F008FF647 /* libz.tbd */,
-				BC5276C51D9585D7008FF647 /* IJKMediaFramework.framework */,
 				BC0144931D9244E6004C0950 /* BaseRequest.swift */,
 				BC0144941D9244E6004C0950 /* BaseSetting.swift */,
 				BC0144951D9244E6004C0950 /* BridgeHeader.h */,
@@ -476,6 +588,7 @@
 			isa = PBXGroup;
 			children = (
 				BC0145381D924518004C0950 /* classes */,
+				BC52773C1D95C941008FF647 /* MusicController */,
 				BC0144811D924482004C0950 /* AppDelegate.swift */,
 				BC0144831D924482004C0950 /* ViewController.swift */,
 				BC0144851D924482004C0950 /* Main.storyboard */,
@@ -491,6 +604,7 @@
 		BC0144981D9244F5004C0950 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				BC5277831D960F82008FF647 /* icons */,
 				BC5276951D957D50008FF647 /* button */,
 				BC52769E1D957D50008FF647 /* publish */,
 				BC0144991D9244F5004C0950 /* avator */,
@@ -1053,6 +1167,7 @@
 		BC5276951D957D50008FF647 /* button */ = {
 			isa = PBXGroup;
 			children = (
+				BC5277811D9605C5008FF647 /* thumb.png */,
 				BC5276961D957D50008FF647 /* empty@3x.png */,
 				BC5276971D957D50008FF647 /* goback.png */,
 				BC5276981D957D50008FF647 /* normalMsg@3x.png */,
@@ -1092,6 +1207,285 @@
 				BC5276C31D95857A008FF647 /* DiscoverCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BC52773C1D95C941008FF647 /* MusicController */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277581D95FC2D008FF647 /* Controller */,
+				BC5277F91D961B4A008FF647 /* MusicLibrary */,
+				BC5277411D95C9ED008FF647 /* View */,
+				BC52773D1D95C991008FF647 /* MusicMenuController.swift */,
+				BC52773F1D95C9CE008FF647 /* MusicTabBarController.swift */,
+			);
+			path = MusicController;
+			sourceTree = "<group>";
+		};
+		BC5277411D95C9ED008FF647 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277441D95F294008FF647 /* NavTitleView.swift */,
+				BC5277421D95CA0B008FF647 /* MusicTabBar.swift */,
+				BC52775F1D95FC82008FF647 /* MyPlaySlider.swift */,
+				BC5277FC1D962661008FF647 /* MyToolBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC5277581D95FC2D008FF647 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277591D95FC5E008FF647 /* HearController.swift */,
+				BC52775A1D95FC5E008FF647 /* SingController.swift */,
+				BC52775B1D95FC5E008FF647 /* WatchController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC5277831D960F82008FF647 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277841D960F82008FF647 /* cm2_list_icn_recent.imageset */,
+				BC5277871D960F82008FF647 /* Contents.json */,
+				BC5277881D960F82008FF647 /* icon_ios_add.imageset */,
+				BC52778B1D960F82008FF647 /* icon_ios_cancel.imageset */,
+				BC52778E1D960F82008FF647 /* icon_ios_down.imageset */,
+				BC5277911D960F82008FF647 /* icon_ios_export.imageset */,
+				BC5277941D960F82008FF647 /* icon_ios_heart.imageset */,
+				BC5277971D960F82008FF647 /* icon_ios_heart_filled.imageset */,
+				BC52779A1D960F82008FF647 /* icon_ios_list.imageset */,
+				BC52779D1D960F82008FF647 /* icon_ios_more.imageset */,
+				BC5277A01D960F82008FF647 /* icon_ios_more_filled.imageset */,
+				BC5277A31D960F82008FF647 /* icon_ios_more_tiny.imageset */,
+				BC5277A61D960F82008FF647 /* icon_ios_music_backward.imageset */,
+				BC5277A91D960F82008FF647 /* icon_ios_music_forward.imageset */,
+				BC5277AC1D960F82008FF647 /* icon_ios_music_pause.imageset */,
+				BC5277AF1D960F82008FF647 /* icon_ios_music_play.imageset */,
+				BC5277B21D960F82008FF647 /* icon_ios_replay _ selected.imageset */,
+				BC5277B51D960F82008FF647 /* icon_ios_replay.imageset */,
+				BC5277B81D960F82008FF647 /* icon_ios_search.imageset */,
+				BC5277BB1D960F82008FF647 /* icon_ios_shuffle _ selected.imageset */,
+				BC5277BE1D960F82008FF647 /* icon_ios_shuffle copy.imageset */,
+				BC5277C11D960F82008FF647 /* icon_ios_shuffle.imageset */,
+				BC5277C41D960F82008FF647 /* icon_ios_up.imageset */,
+				BC5277C71D960F82008FF647 /* slider.imageset */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		BC5277841D960F82008FF647 /* cm2_list_icn_recent.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277851D960F82008FF647 /* cm2_list_icn_recent.png */,
+				BC5277861D960F82008FF647 /* Contents.json */,
+			);
+			path = cm2_list_icn_recent.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277881D960F82008FF647 /* icon_ios_add.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277891D960F82008FF647 /* Contents.json */,
+				BC52778A1D960F82008FF647 /* icon_ios_add.png */,
+			);
+			path = icon_ios_add.imageset;
+			sourceTree = "<group>";
+		};
+		BC52778B1D960F82008FF647 /* icon_ios_cancel.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC52778C1D960F82008FF647 /* Contents.json */,
+				BC52778D1D960F82008FF647 /* icon_ios_cancel.png */,
+			);
+			path = icon_ios_cancel.imageset;
+			sourceTree = "<group>";
+		};
+		BC52778E1D960F82008FF647 /* icon_ios_down.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC52778F1D960F82008FF647 /* Contents.json */,
+				BC5277901D960F82008FF647 /* icon_ios_down.png */,
+			);
+			path = icon_ios_down.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277911D960F82008FF647 /* icon_ios_export.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277921D960F82008FF647 /* Contents.json */,
+				BC5277931D960F82008FF647 /* icon_ios_export.png */,
+			);
+			path = icon_ios_export.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277941D960F82008FF647 /* icon_ios_heart.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277951D960F82008FF647 /* Contents.json */,
+				BC5277961D960F82008FF647 /* icon_ios_heart.png */,
+			);
+			path = icon_ios_heart.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277971D960F82008FF647 /* icon_ios_heart_filled.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277981D960F82008FF647 /* Contents.json */,
+				BC5277991D960F82008FF647 /* icon_ios_heart_filled.png */,
+			);
+			path = icon_ios_heart_filled.imageset;
+			sourceTree = "<group>";
+		};
+		BC52779A1D960F82008FF647 /* icon_ios_list.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC52779B1D960F82008FF647 /* Contents.json */,
+				BC52779C1D960F82008FF647 /* icon_ios_list.png */,
+			);
+			path = icon_ios_list.imageset;
+			sourceTree = "<group>";
+		};
+		BC52779D1D960F82008FF647 /* icon_ios_more.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC52779E1D960F82008FF647 /* Contents.json */,
+				BC52779F1D960F82008FF647 /* icon_ios_more.png */,
+			);
+			path = icon_ios_more.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277A01D960F82008FF647 /* icon_ios_more_filled.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277A11D960F82008FF647 /* Contents.json */,
+				BC5277A21D960F82008FF647 /* icon_ios_more_filled.png */,
+			);
+			path = icon_ios_more_filled.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277A31D960F82008FF647 /* icon_ios_more_tiny.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277A41D960F82008FF647 /* Contents.json */,
+				BC5277A51D960F82008FF647 /* icon_ios_more_tiny.png */,
+			);
+			path = icon_ios_more_tiny.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277A61D960F82008FF647 /* icon_ios_music_backward.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277A71D960F82008FF647 /* Contents.json */,
+				BC5277A81D960F82008FF647 /* icon_ios_music_backward.png */,
+			);
+			path = icon_ios_music_backward.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277A91D960F82008FF647 /* icon_ios_music_forward.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277AA1D960F82008FF647 /* Contents.json */,
+				BC5277AB1D960F82008FF647 /* icon_ios_music_forward.png */,
+			);
+			path = icon_ios_music_forward.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277AC1D960F82008FF647 /* icon_ios_music_pause.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277AD1D960F82008FF647 /* Contents.json */,
+				BC5277AE1D960F82008FF647 /* icon_ios_music_pause.png */,
+			);
+			path = icon_ios_music_pause.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277AF1D960F82008FF647 /* icon_ios_music_play.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277B01D960F82008FF647 /* Contents.json */,
+				BC5277B11D960F82008FF647 /* icon_ios_music_play.png */,
+			);
+			path = icon_ios_music_play.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277B21D960F82008FF647 /* icon_ios_replay _ selected.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277B31D960F82008FF647 /* Contents.json */,
+				BC5277B41D960F82008FF647 /* icon_ios_replay _ selected.png */,
+			);
+			path = "icon_ios_replay _ selected.imageset";
+			sourceTree = "<group>";
+		};
+		BC5277B51D960F82008FF647 /* icon_ios_replay.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277B61D960F82008FF647 /* Contents.json */,
+				BC5277B71D960F82008FF647 /* icon_ios_replay.png */,
+			);
+			path = icon_ios_replay.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277B81D960F82008FF647 /* icon_ios_search.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277B91D960F82008FF647 /* Contents.json */,
+				BC5277BA1D960F82008FF647 /* icon_ios_search.png */,
+			);
+			path = icon_ios_search.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277BB1D960F82008FF647 /* icon_ios_shuffle _ selected.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277BC1D960F82008FF647 /* Contents.json */,
+				BC5277BD1D960F82008FF647 /* icon_ios_shuffle _ selected.png */,
+			);
+			path = "icon_ios_shuffle _ selected.imageset";
+			sourceTree = "<group>";
+		};
+		BC5277BE1D960F82008FF647 /* icon_ios_shuffle copy.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277BF1D960F82008FF647 /* Contents.json */,
+				BC5277C01D960F82008FF647 /* icon_ios_shuffle copy.png */,
+			);
+			path = "icon_ios_shuffle copy.imageset";
+			sourceTree = "<group>";
+		};
+		BC5277C11D960F82008FF647 /* icon_ios_shuffle.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277C21D960F82008FF647 /* Contents.json */,
+				BC5277C31D960F82008FF647 /* icon_ios_shuffle.png */,
+			);
+			path = icon_ios_shuffle.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277C41D960F82008FF647 /* icon_ios_up.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277C51D960F82008FF647 /* Contents.json */,
+				BC5277C61D960F82008FF647 /* icon_ios_up.png */,
+			);
+			path = icon_ios_up.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277C71D960F82008FF647 /* slider.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277C81D960F82008FF647 /* Contents.json */,
+				BC5277C91D960F82008FF647 /* slider.png */,
+			);
+			path = slider.imageset;
+			sourceTree = "<group>";
+		};
+		BC5277F91D961B4A008FF647 /* MusicLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BC5277FA1D961B69008FF647 /* MusicLibraryController.swift */,
+			);
+			path = MusicLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1155,44 +1549,92 @@
 				BC5276AD1D957D50008FF647 /* publish-audio@3x.png in Resources */,
 				BC0145131D9244F5004C0950 /* tabbar_profile_selected@2x.png in Resources */,
 				BC5276A51D957D50008FF647 /* empty@3x.png in Resources */,
+				BC5277EE1D960F82008FF647 /* icon_ios_search.png in Resources */,
+				BC5277DF1D960F82008FF647 /* Contents.json in Resources */,
+				BC5277F01D960F82008FF647 /* icon_ios_shuffle _ selected.png in Resources */,
+				BC5277DD1D960F82008FF647 /* Contents.json in Resources */,
+				BC5277EA1D960F82008FF647 /* icon_ios_replay _ selected.png in Resources */,
 				BC01448C1D924482004C0950 /* LaunchScreen.storyboard in Resources */,
+				BC5277CE1D960F82008FF647 /* icon_ios_add.png in Resources */,
+				BC5277D11D960F82008FF647 /* Contents.json in Resources */,
 				BC01450F1D9244F5004C0950 /* tabbar_home_selected@2x.png in Resources */,
+				BC5277D31D960F82008FF647 /* Contents.json in Resources */,
 				BC0145121D9244F5004C0950 /* tabbar_profile@2x.png in Resources */,
+				BC5277E71D960F82008FF647 /* Contents.json in Resources */,
 				BC5276AF1D957D50008FF647 /* publish-picture@3x.png in Resources */,
 				BC0145021D9244F5004C0950 /* avatar_default@2x.png in Resources */,
+				BC5277D91D960F82008FF647 /* Contents.json in Resources */,
 				BC0145101D9244F5004C0950 /* tabbar_message_center@2x.png in Resources */,
+				BC5277E61D960F82008FF647 /* icon_ios_music_pause.png in Resources */,
 				BC0145041D9244F5004C0950 /* timeline_icon_comment@2x.png in Resources */,
 				BC01457C1D924518004C0950 /* Mine.plist in Resources */,
+				BC5277D21D960F82008FF647 /* icon_ios_down.png in Resources */,
 				BC01450E1D9244F5004C0950 /* tabbar_home@2x.png in Resources */,
+				BC5277E31D960F82008FF647 /* Contents.json in Resources */,
 				BC52762E1D957B9D008FF647 /* pop-osx-Info.plist in Resources */,
 				BC01450D1D9244F5004C0950 /* tabbar_discover_selected@2x.png in Resources */,
+				BC5277F11D960F82008FF647 /* Contents.json in Resources */,
 				BC5276B21D957D50008FF647 /* publish-video@3x.png in Resources */,
 				BC5276A71D957D50008FF647 /* normalMsg@3x.png in Resources */,
+				BC5277F41D960F82008FF647 /* icon_ios_shuffle.png in Resources */,
+				BC5277D01D960F82008FF647 /* icon_ios_cancel.png in Resources */,
 				BC0145051D9244F5004C0950 /* timeline_icon_retweet@2x.png in Resources */,
+				BC5277CD1D960F82008FF647 /* Contents.json in Resources */,
 				BC0145081D9244F5004C0950 /* tabbar_compose_background_icon_add@2x.png in Resources */,
+				BC5277DA1D960F82008FF647 /* icon_ios_list.png in Resources */,
 				BC5276AC1D957D50008FF647 /* 点赞.png in Resources */,
 				BC5276B11D957D50008FF647 /* publish-text@3x.png in Resources */,
+				BC5277EF1D960F82008FF647 /* Contents.json in Resources */,
+				BC5277CC1D960F82008FF647 /* Contents.json in Resources */,
+				BC5277D71D960F82008FF647 /* Contents.json in Resources */,
+				BC5277821D9605C5008FF647 /* thumb.png in Resources */,
 				BC0144891D924482004C0950 /* Assets.xcassets in Resources */,
 				BC0145821D924518004C0950 /* Setting.plist in Resources */,
 				BC5276A91D957D50008FF647 /* privateMsg@3x.png in Resources */,
+				BC5277E91D960F82008FF647 /* Contents.json in Resources */,
 				BC0144871D924482004C0950 /* Main.storyboard in Resources */,
+				BC5277E21D960F82008FF647 /* icon_ios_music_backward.png in Resources */,
+				BC5277DB1D960F82008FF647 /* Contents.json in Resources */,
+				BC5277F51D960F82008FF647 /* Contents.json in Resources */,
+				BC5277E41D960F82008FF647 /* icon_ios_music_forward.png in Resources */,
 				BC5276AA1D957D50008FF647 /* web_chat_timeline_share_normal@3x.png in Resources */,
 				BC0145061D9244F5004C0950 /* timeline_icon_unlike@2x.png in Resources */,
 				BC5276811D957BCC008FF647 /* MJRefresh.bundle in Resources */,
 				BC5276AB1D957D50008FF647 /* 开始.png in Resources */,
 				BC5276A81D957D50008FF647 /* play.png in Resources */,
 				BC0145031D9244F5004C0950 /* icon@2x.png in Resources */,
+				BC5277CB1D960F82008FF647 /* Contents.json in Resources */,
+				BC5277DE1D960F82008FF647 /* icon_ios_more_filled.png in Resources */,
+				BC5277CF1D960F82008FF647 /* Contents.json in Resources */,
+				BC5277D41D960F82008FF647 /* icon_ios_export.png in Resources */,
 				BC52762F1D957B9D008FF647 /* pop-tvos-Info.plist in Resources */,
+				BC5277E01D960F82008FF647 /* icon_ios_more_tiny.png in Resources */,
 				BC01450A1D9244F5004C0950 /* tabbar_compose_button@2x.png in Resources */,
 				BC0145091D9244F5004C0950 /* tabbar_compose_background_icon_close@2x.png in Resources */,
+				BC5277ED1D960F82008FF647 /* Contents.json in Resources */,
+				BC5277E51D960F82008FF647 /* Contents.json in Resources */,
 				BC5276A61D957D50008FF647 /* goback.png in Resources */,
+				BC5277E11D960F82008FF647 /* Contents.json in Resources */,
 				BC5276B01D957D50008FF647 /* publish-review@3x.png in Resources */,
+				BC5277D81D960F82008FF647 /* icon_ios_heart_filled.png in Resources */,
+				BC5277F61D960F82008FF647 /* icon_ios_up.png in Resources */,
 				BC0145111D9244F5004C0950 /* tabbar_message_center_selected@2x.png in Resources */,
+				BC5277D51D960F82008FF647 /* Contents.json in Resources */,
+				BC5277D61D960F82008FF647 /* icon_ios_heart.png in Resources */,
+				BC5277F71D960F82008FF647 /* Contents.json in Resources */,
+				BC5277EC1D960F82008FF647 /* icon_ios_replay.png in Resources */,
 				BC52762D1D957B9D008FF647 /* pop-ios-Info.plist in Resources */,
 				BC01450C1D9244F5004C0950 /* tabbar_discover@2x.png in Resources */,
+				BC5277E81D960F82008FF647 /* icon_ios_music_play.png in Resources */,
+				BC5277F81D960F82008FF647 /* slider.png in Resources */,
+				BC5277CA1D960F82008FF647 /* cm2_list_icn_recent.png in Resources */,
 				BC01450B1D9244F5004C0950 /* tabbar_compose_icon_add@2x.png in Resources */,
+				BC5277F21D960F82008FF647 /* icon_ios_shuffle copy.png in Resources */,
 				BC5276AE1D957D50008FF647 /* publish-offline@3x.png in Resources */,
+				BC5277DC1D960F82008FF647 /* icon_ios_more.png in Resources */,
 				BC0145071D9244F5004C0950 /* tabbar_background@2x.png in Resources */,
+				BC5277EB1D960F82008FF647 /* Contents.json in Resources */,
+				BC5277F31D960F82008FF647 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1207,6 +1649,7 @@
 				BC5276801D957BCC008FF647 /* MJRefreshStateHeader.m in Sources */,
 				BC444CD71D93A6F6008F33BB /* HomePageController.swift in Sources */,
 				BC0145911D924518004C0950 /* MyTool.swift in Sources */,
+				BC52775E1D95FC5E008FF647 /* WatchController.swift in Sources */,
 				BC0145311D9244F5004C0950 /* UIButton+WebCache.m in Sources */,
 				BC01457E1D924518004C0950 /* MyWeiboController.swift in Sources */,
 				BC5276381D957B9D008FF647 /* POPCGUtils.mm in Sources */,
@@ -1219,7 +1662,9 @@
 				BC444CDD1D93A6F6008F33BB /* HomePageCell.swift in Sources */,
 				BC5276741D957BCC008FF647 /* MJRefreshBackFooter.m in Sources */,
 				BC5276391D957B9D008FF647 /* POPCustomAnimation.mm in Sources */,
+				BC52773E1D95C991008FF647 /* MusicMenuController.swift in Sources */,
 				BC444CEA1D93A724008F33BB /* ChatModel.swift in Sources */,
+				BC5277FB1D961B69008FF647 /* MusicLibraryController.swift in Sources */,
 				BC5276851D957BCC008FF647 /* UIView+MJExtension.m in Sources */,
 				BC5276CA1D958847008FF647 /* DiscoverController.swift in Sources */,
 				BC0145271D9244F5004C0950 /* UIView+SDAutoLayout.m in Sources */,
@@ -1238,9 +1683,11 @@
 				BC444CDB1D93A6F6008F33BB /* PersonalController.swift in Sources */,
 				BC01456E1D924518004C0950 /* PublishController.swift in Sources */,
 				BC01451E1D9244F5004C0950 /* JSONModelClassProperty.m in Sources */,
+				BC52775D1D95FC5E008FF647 /* SingController.swift in Sources */,
 				BC5276731D957BCC008FF647 /* MJRefreshAutoFooter.m in Sources */,
 				BC5276401D957B9D008FF647 /* POPVector.mm in Sources */,
 				BC0145881D924518004C0950 /* UserInfo+CoreDataProperties.swift in Sources */,
+				BC5277401D95C9CE008FF647 /* MusicTabBarController.swift in Sources */,
 				BC01458D1D924518004C0950 /* MeButton.swift in Sources */,
 				BC0145861D924518004C0950 /* MyTabBarController.swift in Sources */,
 				BC0144971D9244E6004C0950 /* BaseSetting.swift in Sources */,
@@ -1253,11 +1700,13 @@
 				BC0145841D924518004C0950 /* LoginViewController.swift in Sources */,
 				BC0145201D9244F5004C0950 /* JSONAPI.m in Sources */,
 				BC52767A1D957BCC008FF647 /* MJRefreshAutoStateFooter.m in Sources */,
+				BC52775C1D95FC5E008FF647 /* HearController.swift in Sources */,
 				BC5276311D957B9D008FF647 /* POPAnimation.mm in Sources */,
 				BC52763C1D957B9D008FF647 /* POPLayerExtras.mm in Sources */,
 				BC0145361D9244F5004C0950 /* UIImageView+WebCache.m in Sources */,
 				BC52763F1D957B9D008FF647 /* POPSpringAnimation.mm in Sources */,
 				BC0145341D9244F5004C0950 /* UIImage+WebP.m in Sources */,
+				BC5277451D95F294008FF647 /* NavTitleView.swift in Sources */,
 				BC5276781D957BCC008FF647 /* MJRefreshAutoGifFooter.m in Sources */,
 				BC5276B41D957D9D008FF647 /* PublishButton.swift in Sources */,
 				BC52767E1D957BCC008FF647 /* MJRefreshGifHeader.m in Sources */,
@@ -1271,6 +1720,7 @@
 				BC0145141D9244F5004C0950 /* AFHTTPRequestOperation.m in Sources */,
 				BC0145351D9244F5004C0950 /* UIImageView+HighlightedWebCache.m in Sources */,
 				BC01458A1D924518004C0950 /* weibo.xcdatamodeld in Sources */,
+				BC5277601D95FC82008FF647 /* MyPlaySlider.swift in Sources */,
 				BC444CE91D93A724008F33BB /* MessageController.swift in Sources */,
 				BC5276C11D958570008FF647 /* PlayerModel.swift in Sources */,
 				BC5276341D957B9D008FF647 /* POPAnimationRuntime.mm in Sources */,
@@ -1304,6 +1754,7 @@
 				BC444CD81D93A6F6008F33BB /* CommentModel.swift in Sources */,
 				BC0145161D9244F5004C0950 /* AFHTTPSessionManager.m in Sources */,
 				BC0145171D9244F5004C0950 /* AFNetworkReachabilityManager.m in Sources */,
+				BC5277431D95CA0B008FF647 /* MusicTabBar.swift in Sources */,
 				BC5276BC1D958526008FF647 /* PlayerController.swift in Sources */,
 				BC01451B1D9244F5004C0950 /* AFURLResponseSerialization.m in Sources */,
 				BC01451C1D9244F5004C0950 /* AFURLSessionManager.m in Sources */,
@@ -1325,6 +1776,7 @@
 				BC444CDE1D93A6F6008F33BB /* PersonalHeadView.swift in Sources */,
 				BC0144961D9244E6004C0950 /* BaseRequest.swift in Sources */,
 				BC52767B1D957BCC008FF647 /* MJRefreshBackGifFooter.m in Sources */,
+				BC5277FD1D962661008FF647 /* MyToolBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

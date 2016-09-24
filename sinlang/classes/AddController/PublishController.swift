@@ -78,7 +78,8 @@ class PublishController: UIViewController {
         case 2:
             print("文字")
         case 4:
-            print("听音乐")
+            let musicController = MusicTabBarController()
+            self.presentViewController(musicController, animated: true, completion: nil)
         default:
             self.dismissViewControllerAnimated(true, completion: nil)
             break

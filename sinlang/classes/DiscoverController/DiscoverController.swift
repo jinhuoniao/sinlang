@@ -25,6 +25,7 @@ class DiscoverController: UIViewController, UITableViewDelegate, UITableViewData
         self.view.backgroundColor = UIColor.grayColor()
         self.getData()
         self.automaticallyAdjustsScrollViewInsets = false
+        self.navigationItem.title = "直播"
     }
     
     func getData() {
