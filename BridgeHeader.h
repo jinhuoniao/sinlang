@@ -19,5 +19,9 @@
 #import "DMHeartFlyView.h"
 #import "MJRefresh.h"
 #import "POP.h"
+#import "XTADScrollView.h"
+#import "JCTagListView.h"
+#import "NAKPlaybackIndicatorView.h"
+
 
 #endif /* BridgeHeader_h */
