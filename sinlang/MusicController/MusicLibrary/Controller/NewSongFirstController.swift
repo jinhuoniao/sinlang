@@ -10,7 +10,6 @@ import UIKit
 
 class NewSongFirstController: UIViewController, UIScrollViewDelegate, MyToolBarDelegate, UITableViewDelegate, UITableViewDataSource {
 
-    
     var toolBar: MyToolBar!
     var scrollView = UIScrollView.init(frame: CGRectMake(0, 108, SCREEN_W, SCREEN_H - 108))
     var CSList = NSMutableArray()
@@ -38,6 +37,13 @@ class NewSongFirstController: UIViewController, UIScrollViewDelegate, MyToolBarD
         scrollView.delegate = self
         self.automaticallyAdjustsScrollViewInsets = false
         self.getData()
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(self.pushToPlayingCon), name: "toPlayMusicController", object: nil)
+    }
+    
+    func pushToPlayingCon() {
+        let play = PlayingMusicController.sharePlay
+        self.presentViewController(play, animated: true, completion: nil)
     }
     
     func getData() {
@@ -88,15 +94,32 @@ class NewSongFirstController: UIViewController, UIScrollViewDelegate, MyToolBarD
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        //let model = CSList[indexPath.row] as! PublicMusicModel
         
         let playC = PlayingMusicController.sharePlay
-        playC.songIdArray = self.songIdArray
-        playC.playingIndex = indexPath.row
-        self.navigationController?.pushViewController(playC, animated: true)
+        playC.setSontIdArray(self.songIdArray, currentIndex: indexPath.row)
+        
+        
+        
     }
+    
+    
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

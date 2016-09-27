@@ -37,7 +37,6 @@ class MyWeiboController:  UITableViewController {
             }
             dispatch_async(dispatch_get_main_queue(), {
                 self.dataArr.addObjectsFromArray(array as [AnyObject])
-                print(self.dataArr.count)
                 self.tableView.reloadData()
             })
             

@@ -30,11 +30,13 @@ class SongListCell: UITableViewCell {
         self.addSubview(songL)
         self.addSubview(nameL)
         
+        adBtn.setImage(UIImage.init(named: "icon_ios_add"), forState: .Normal)
         songL.textColor = UIColor.blackColor()
         songL.font = UIFont.boldSystemFontOfSize(20)
         nameL.textColor = UIColor.grayColor()
         nameL.font = UIFont.systemFontOfSize(15)
         
+        adBtn.sd_layout().leftSpaceToView(self, 5).topSpaceToView(self, aSpace).heightIs(40).widthIs(40)
         songL.sd_layout().leftSpaceToView(self, 50).topSpaceToView(self, aSpace).heightIs(30).widthIs(300)
         nameL.sd_layout().leftSpaceToView(self, 50).topSpaceToView(self.songL, 0).heightIs(20).widthIs(300)
     }

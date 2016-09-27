@@ -10,6 +10,7 @@ import UIKit
 
 class MusicLibraryController: UIViewController, MyToolBarDelegate, UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource {
 
+    let tab = MusicTabBar.shareMusicBar()
     var toolBar: MyToolBar!
     var albumArray = [String]()
     var songArray = [String]()
@@ -60,6 +61,15 @@ class MusicLibraryController: UIViewController, MyToolBarDelegate, UIScrollViewD
         scrollView.delegate = self
         self.automaticallyAdjustsScrollViewInsets = false
         self.getData()
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(self.pushToPlayingCon), name: "toPlayMusicController", object: nil)
+    }
+    
+    func pushToPlayingCon() {
+        let arr = self.navigationController?.viewControllers
+        if arr?.count == 2 {
+            let play = PlayingMusicController.sharePlay
+            self.presentViewController(play, animated: true, completion: nil)
+        }
     }
     
     func createTool() {
@@ -138,7 +148,9 @@ class MusicLibraryController: UIViewController, MyToolBarDelegate, UIScrollViewD
         return 100
     }
     
-
+    deinit {
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: "toPlayMusicController", object: nil)
+    }
 }
 
 

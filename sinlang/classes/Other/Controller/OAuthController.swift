@@ -44,25 +44,21 @@ class OAuthController: UIViewController, UIWebViewDelegate {
     
     func accessTokenWithCode(code: String) {
         let url = "https://api.weibo.com/oauth2/access_token"
-        let mgr = AFHTTPRequestOperationManager()
+        let mgr = AFHTTPSessionManager()
         mgr.responseSerializer.acceptableContentTypes = NSSet.init(objects: "text/plain") as? Set<String>
         mgr.responseSerializer = AFHTTPResponseSerializer()
         let params = ["client_id":"568898243","client_secret":"38a4f8204cc784f81f9f0daaf31e02e3","grant_type":"authorization_code","redirect_uri":"http://www.sharesdk.cn","code":code]
-        
-        mgr.POST(url, parameters: params, success: { (operation, responseObject) in
-            print(responseObject)
+        mgr.POST(url, parameters: params, progress: nil, success: { (operation, responseObject) in
             let obj = try! NSJSONSerialization.JSONObjectWithData(responseObject as! NSData, options: .MutableContainers) as! NSDictionary
             let acce = obj["access_token"] as! String
             let expi = obj["expires_in"]
             let uid = obj["uid"]
             let uidStr = String(uid!)
             let expiStr = String(expi!)
-            
             UserInfo.saveMessage(uidStr, expirStr: expiStr, tokenStr: acce)
-            
-            
             let window = UIApplication.sharedApplication().keyWindow
             window?.switchRootViewController()
+
             }) { (operation, error) in
                 print("error")
         }

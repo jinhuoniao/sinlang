@@ -11,6 +11,7 @@ import UIKit
 
 class MusicMenuController: UIViewController, NavTitleViewDelegate, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
+    let tab = MusicTabBar.shareMusicBar()
     var titleView: NavTitleView!
     lazy var contentView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -34,11 +35,22 @@ class MusicMenuController: UIViewController, NavTitleViewDelegate, UICollectionV
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.grayColor()
         self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(image: UIImage.init(named: "goback"), style: UIBarButtonItemStyle.Plain, target: self, action: #selector(self.backClick))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(image: UIImage.init(named: "icon_ios_search"), style: .Plain, target: self, action: #selector(self.searchClick))
         self.automaticallyAdjustsScrollViewInsets = false
         self.contentView.reloadData()
         self.createTitleView()
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(self.listenUp), name: "pushToMusicLibrary", object: nil)
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(self.pushToPlayingCon), name: "toPlayMusicController", object: nil)
+    }
+    
+    func pushToPlayingCon() {
+        let arr = self.navigationController?.viewControllers
+        if arr?.count == 1 {
+            let play = PlayingMusicController.sharePlay
+            self.presentViewController(play, animated: true, completion: nil)
+        }
     }
     
     func listenUp() -> Void {
@@ -48,6 +60,11 @@ class MusicMenuController: UIViewController, NavTitleViewDelegate, UICollectionV
     
     func backClick() {
         self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    func searchClick() {
+        let search = SearchController()
+        self.navigationController?.pushViewController(search, animated: true)
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -103,6 +120,7 @@ class MusicMenuController: UIViewController, NavTitleViewDelegate, UICollectionV
         let index = NSInteger(scrollView.contentOffset.x / SCREEN_W)
         titleView.selectedIndex(index)
     }
+    
 
 }
 

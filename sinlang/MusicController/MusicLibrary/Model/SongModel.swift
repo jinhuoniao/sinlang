@@ -15,6 +15,7 @@ class PublicMusicModel: JSONModel {
     var albumTitle: String!
     var picSmall: String!
     var num: String!
+    var fileDuration: String!
     
     override class func keyMapper() -> JSONKeyMapper {
         return JSONKeyMapper.mapperFromUnderscoreCaseToCamelCase()
@@ -25,34 +26,7 @@ class PublicMusicModel: JSONModel {
     }
 }
 
-class PlaySongModel: JSONModel {
-    var songName: String!
-    var artistName: String!
-    var albumName: String!
-    var songPicSmall: String!
-    var songPicRadio: String!
-    var songLink: String!
-    var lrcLink: String!
-    var showLink: String!
-    var songId: String!
-    
-    required init(dictionary dict: [NSObject : AnyObject]!) throws {
-        super.init()
-        self.songLink = dict["songLink"] as! String
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    required init(data: NSData!) throws {
-        fatalError("init(data:) has not been implemented")
-    }
-    
-    override class func propertyIsOptional(propertyName: String) -> Bool {
-        return true
-    }
-}
+
 
 extension PublicMusicModel {
     class func requestGetSong(callBack:(array: [AnyObject]?, error: NSError?) -> Void) {
@@ -85,27 +59,6 @@ extension PublicMusicModel {
 }
 
 
-extension PlaySongModel {
-    class func requestGetPlaySong(songId: String, callBack:(array: [AnyObject]?, error: NSError?) -> Void) {
-        let para = ["songIds":songId]
-        BaseRequest.postWithURL(MusicUrl, para: para) { (data, error) in
-            if error == nil {
-                let obj = try! NSJSONSerialization.JSONObjectWithData(data!, options: .MutableContainers) as! NSDictionary
-                let dic = obj["data"]!["songList"] as! [AnyObject]
-                let arr = try! PlaySongModel.arrayOfModelsFromDictionaries(dic, error: ())
-                dispatch_async(dispatch_get_main_queue(), { 
-                    callBack(array: arr as [AnyObject], error: nil)
-                })
-                
-                
-            } else {
-                dispatch_async(dispatch_get_main_queue(), { 
-                    callBack(array: nil, error: error)
-                })
-            }
-        }
-    }
-}
 
 
 

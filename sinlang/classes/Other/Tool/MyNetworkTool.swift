@@ -55,7 +55,41 @@ class MyNetworkTool: NSObject {
             }
         }
     }
+    
+    class func netWorkToolDownLoad(string: String, targetPath path: NSSearchPathDirectory, DomainMask mask: NSSearchPathDomainMask, callBack:(endPath: NSURL) -> Void) {
+        let configuration = NSURLSessionConfiguration.defaultSessionConfiguration()
+        let manager = AFURLSessionManager.init(sessionConfiguration: configuration)
+        let url = NSURL.init(string: string)
+        let request = NSURLRequest.init(URL: url!)
+        let downloadTask = manager.downloadTaskWithRequest(request, progress: nil, destination: { (targetPath, response) -> NSURL in
+            let documentUrl: NSURL = try! NSFileManager.defaultManager().URLForDirectory(path, inDomain: mask, appropriateForURL: nil, create: true)
+            return documentUrl.URLByAppendingPathComponent(response.suggestedFilename!)
+            }) { (response, endPath, error) in
+                if error == nil {
+                    callBack(endPath: endPath!)
+                }
+        }
+        downloadTask.resume()
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

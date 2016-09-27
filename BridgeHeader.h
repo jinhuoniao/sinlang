@@ -11,7 +11,6 @@
 #import "AFNetworking.h"
 #import "UIView+SDAutoLayout.h"
 #import "MBProgressHUD.h"
-#import "AFHTTPRequestOperationManager.h"
 #import <CommonCrypto/CommonCrypto.h>
 #import "JSONModel.h"
 #import "UIImageView+WebCache.h"
@@ -21,7 +20,5 @@
 #import "POP.h"
 #import "XTADScrollView.h"
 #import "JCTagListView.h"
-#import "NAKPlaybackIndicatorView.h"
-
 
 #endif /* BridgeHeader_h */

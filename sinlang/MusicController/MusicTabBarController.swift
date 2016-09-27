@@ -19,7 +19,7 @@ class MusicTabBarController: UITabBarController {
     }
     
     func setupTabBar() {
-        let a = MusicTabBar()
+        let a = MusicTabBar.shareMusicBar()
         self.setValue(a, forKey: "tabBar")
     }
     

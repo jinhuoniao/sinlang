@@ -22,10 +22,14 @@ class DiscoverController: UIViewController, UITableViewDelegate, UITableViewData
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.grayColor()
+        self.view.backgroundColor = UIColor.whiteColor()
         self.getData()
         self.automaticallyAdjustsScrollViewInsets = false
         self.navigationItem.title = "直播"
+        self.tableView.mj_header = MJRefreshNormalHeader.init(refreshingBlock: {
+            self.getData()
+        })
+        tableView.mj_header.beginRefreshing()
     }
     
     func getData() {
@@ -46,6 +50,7 @@ class DiscoverController: UIViewController, UITableViewDelegate, UITableViewData
                 self.dataList.append(model)
             }
             self.tableView.reloadData()
+            self.tableView.mj_header.endRefreshing()
         }
 
     }

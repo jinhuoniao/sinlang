@@ -70,21 +70,20 @@ class HomePageController: UITableViewController {
         cell.commentBtn.tag = Int(model.id!)!
         cell.commentBtn.addTarget(self, action: #selector(self.commentBtnClick(_:)), forControlEvents: .TouchUpInside)
         cell.attitudeBtn.setTitle(model.attitudesCount!, forState: .Normal)
-        //        if model.picUrls != nil {
-        //            var arr = [String]()
-        //            for pic in model.picUrls! {
-        //                let dic = pic as! NSDictionary
-        //                //arr.append(dic["thumbnail_pic"] as! String)
-        //                arr.append(model.user!["avatar_hd"] as! String)
-        //            }
-        //            let myview = CommentView.init(frame: CGRectMake(0, 0, cell.myView.width, cell.myView.height), arr: arr)
-        //            myview.backgroundColor = UIColor.greenColor()
-        //            cell.myView = myview
-        //            cell.setNeedsDisplay()
-        //        } else {
-        //            cell.myView.backgroundColor = UIColor.whiteColor()
-        //
-        //        }
+//        if model.picUrls != nil {
+//            var arr = [String]()
+//            for pic in model.picUrls! {
+//                let dic = pic as! NSDictionary
+//                //arr.append(dic["thumbnail_pic"] as! String)
+//                arr.append(model.user!["avatar_hd"] as! String)
+//            }
+//            let myview = CommentView.init(frame: CGRectMake(0, 0, cell.myView.width, cell.myView.height), arr: arr)
+//            myview.backgroundColor = UIColor.greenColor()
+//            cell.myView = myview
+//            cell.setNeedsDisplay()
+//        } else {
+//            cell.myView.backgroundColor = UIColor.whiteColor()
+//        }
         
         return cell
     }
