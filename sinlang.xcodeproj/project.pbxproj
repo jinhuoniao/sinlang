@@ -70,6 +70,22 @@
 		BC0145901D924518004C0950 /* MyPromptTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01456A1D924518004C0950 /* MyPromptTool.swift */; };
 		BC0145911D924518004C0950 /* MyTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01456B1D924518004C0950 /* MyTool.swift */; };
 		BC0145921D924518004C0950 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01456D1D924518004C0950 /* MyTabBar.swift */; };
+		BC0205781D9AB4BF007015F9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0205771D9AB4BF007015F9 /* libz.tbd */; };
+		BC02057A1D9AB6DB007015F9 /* SearchReferralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0205791D9AB6DB007015F9 /* SearchReferralView.swift */; };
+		BC02057C1D9AB6FE007015F9 /* SearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02057B1D9AB6FE007015F9 /* SearchResultView.swift */; };
+		BC02057F1D9AC2D5007015F9 /* SearchInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC02057E1D9AC2D5007015F9 /* SearchInfoModel.swift */; };
+		BC0205821D9AC764007015F9 /* HCSearchInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0205811D9AC764007015F9 /* HCSearchInfoModel.m */; };
+		BC0205991D9AC7B0007015F9 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0205861D9AC7B0007015F9 /* MJExtensionConst.m */; };
+		BC02059A1D9AC7B0007015F9 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0205881D9AC7B0007015F9 /* MJFoundation.m */; };
+		BC02059B1D9AC7B0007015F9 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02058A1D9AC7B0007015F9 /* MJProperty.m */; };
+		BC02059C1D9AC7B0007015F9 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02058C1D9AC7B0007015F9 /* MJPropertyKey.m */; };
+		BC02059D1D9AC7B0007015F9 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02058E1D9AC7B0007015F9 /* MJPropertyType.m */; };
+		BC02059E1D9AC7B0007015F9 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0205901D9AC7B0007015F9 /* NSObject+MJClass.m */; };
+		BC02059F1D9AC7B0007015F9 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0205921D9AC7B0007015F9 /* NSObject+MJCoding.m */; };
+		BC0205A01D9AC7B0007015F9 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0205941D9AC7B0007015F9 /* NSObject+MJKeyValue.m */; };
+		BC0205A11D9AC7B0007015F9 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0205961D9AC7B0007015F9 /* NSObject+MJProperty.m */; };
+		BC0205A21D9AC7B0007015F9 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0205981D9AC7B0007015F9 /* NSString+MJExtension.m */; };
+		BC0205A51D9ACCCC007015F9 /* HCSearchListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0205A41D9ACCCC007015F9 /* HCSearchListModel.m */; };
 		BC033FD51D973F8E008F40C8 /* JCCollectionViewTagFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC033FD01D973F8E008F40C8 /* JCCollectionViewTagFlowLayout.m */; };
 		BC033FD61D973F8E008F40C8 /* JCTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC033FD21D973F8E008F40C8 /* JCTagCell.m */; };
 		BC033FD71D973F8E008F40C8 /* JCTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC033FD41D973F8E008F40C8 /* JCTagListView.m */; };
@@ -161,7 +177,6 @@
 		BC5276831D957BCC008FF647 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC52766E1D957BCC008FF647 /* UIScrollView+MJExtension.m */; };
 		BC5276841D957BCC008FF647 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5276701D957BCC008FF647 /* UIScrollView+MJRefresh.m */; };
 		BC5276851D957BCC008FF647 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5276721D957BCC008FF647 /* UIView+MJExtension.m */; };
-		BC5276891D957C0F008FF647 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5276881D957C0F008FF647 /* libz.tbd */; };
 		BC5276A51D957D50008FF647 /* empty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5276961D957D50008FF647 /* empty@3x.png */; };
 		BC5276A61D957D50008FF647 /* goback.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5276971D957D50008FF647 /* goback.png */; };
 		BC5276A71D957D50008FF647 /* normalMsg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5276981D957D50008FF647 /* normalMsg@3x.png */; };
@@ -338,6 +353,35 @@
 		BC01456A1D924518004C0950 /* MyPromptTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPromptTool.swift; sourceTree = "<group>"; };
 		BC01456B1D924518004C0950 /* MyTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTool.swift; sourceTree = "<group>"; };
 		BC01456D1D924518004C0950 /* MyTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
+		BC0205771D9AB4BF007015F9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BC0205791D9AB6DB007015F9 /* SearchReferralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchReferralView.swift; sourceTree = "<group>"; };
+		BC02057B1D9AB6FE007015F9 /* SearchResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultView.swift; sourceTree = "<group>"; };
+		BC02057E1D9AC2D5007015F9 /* SearchInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInfoModel.swift; sourceTree = "<group>"; };
+		BC0205801D9AC764007015F9 /* HCSearchInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSearchInfoModel.h; sourceTree = "<group>"; };
+		BC0205811D9AC764007015F9 /* HCSearchInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSearchInfoModel.m; sourceTree = "<group>"; };
+		BC0205841D9AC7B0007015F9 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		BC0205851D9AC7B0007015F9 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		BC0205861D9AC7B0007015F9 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		BC0205871D9AC7B0007015F9 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		BC0205881D9AC7B0007015F9 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		BC0205891D9AC7B0007015F9 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		BC02058A1D9AC7B0007015F9 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		BC02058B1D9AC7B0007015F9 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		BC02058C1D9AC7B0007015F9 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		BC02058D1D9AC7B0007015F9 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		BC02058E1D9AC7B0007015F9 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		BC02058F1D9AC7B0007015F9 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		BC0205901D9AC7B0007015F9 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		BC0205911D9AC7B0007015F9 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		BC0205921D9AC7B0007015F9 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		BC0205931D9AC7B0007015F9 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		BC0205941D9AC7B0007015F9 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		BC0205951D9AC7B0007015F9 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		BC0205961D9AC7B0007015F9 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		BC0205971D9AC7B0007015F9 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		BC0205981D9AC7B0007015F9 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		BC0205A31D9ACCCC007015F9 /* HCSearchListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSearchListModel.h; sourceTree = "<group>"; };
+		BC0205A41D9ACCCC007015F9 /* HCSearchListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSearchListModel.m; sourceTree = "<group>"; };
 		BC033FCF1D973F8E008F40C8 /* JCCollectionViewTagFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCollectionViewTagFlowLayout.h; sourceTree = "<group>"; };
 		BC033FD01D973F8E008F40C8 /* JCCollectionViewTagFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCollectionViewTagFlowLayout.m; sourceTree = "<group>"; };
 		BC033FD11D973F8E008F40C8 /* JCTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTagCell.h; sourceTree = "<group>"; };
@@ -506,7 +550,6 @@
 		BC5276701D957BCC008FF647 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		BC5276711D957BCC008FF647 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		BC5276721D957BCC008FF647 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
-		BC5276881D957C0F008FF647 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		BC5276961D957D50008FF647 /* empty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty@3x.png"; sourceTree = "<group>"; };
 		BC5276971D957D50008FF647 /* goback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goback.png; sourceTree = "<group>"; };
 		BC5276981D957D50008FF647 /* normalMsg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normalMsg@3x.png"; sourceTree = "<group>"; };
@@ -626,7 +669,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC5276891D957C0F008FF647 /* libz.tbd in Frameworks */,
+				BC0205781D9AB4BF007015F9 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,7 +679,7 @@
 		BC0144751D924482004C0950 = {
 			isa = PBXGroup;
 			children = (
-				BC5276881D957C0F008FF647 /* libz.tbd */,
+				BC0205771D9AB4BF007015F9 /* libz.tbd */,
 				BC0144931D9244E6004C0950 /* BaseRequest.swift */,
 				BC0144941D9244E6004C0950 /* BaseSetting.swift */,
 				BC0144951D9244E6004C0950 /* BridgeHeader.h */,
@@ -725,6 +768,7 @@
 		BC0144AE1D9244F5004C0950 /* ThirdLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				BC0205831D9AC7B0007015F9 /* MJExtension */,
 				BC5469CB1D9A10F100ACD118 /* SDWebImage */,
 				BC4564DC1D98A4BF007B3D32 /* AFNetworking */,
 				BC033FCE1D973F8E008F40C8 /* JCTagListView */,
@@ -923,6 +967,46 @@
 				BC01456D1D924518004C0950 /* MyTabBar.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BC02057D1D9AC2B9007015F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC0205801D9AC764007015F9 /* HCSearchInfoModel.h */,
+				BC0205811D9AC764007015F9 /* HCSearchInfoModel.m */,
+				BC0205A31D9ACCCC007015F9 /* HCSearchListModel.h */,
+				BC0205A41D9ACCCC007015F9 /* HCSearchListModel.m */,
+				BC02057E1D9AC2D5007015F9 /* SearchInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC0205831D9AC7B0007015F9 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BC0205841D9AC7B0007015F9 /* MJExtension.h */,
+				BC0205851D9AC7B0007015F9 /* MJExtensionConst.h */,
+				BC0205861D9AC7B0007015F9 /* MJExtensionConst.m */,
+				BC0205871D9AC7B0007015F9 /* MJFoundation.h */,
+				BC0205881D9AC7B0007015F9 /* MJFoundation.m */,
+				BC0205891D9AC7B0007015F9 /* MJProperty.h */,
+				BC02058A1D9AC7B0007015F9 /* MJProperty.m */,
+				BC02058B1D9AC7B0007015F9 /* MJPropertyKey.h */,
+				BC02058C1D9AC7B0007015F9 /* MJPropertyKey.m */,
+				BC02058D1D9AC7B0007015F9 /* MJPropertyType.h */,
+				BC02058E1D9AC7B0007015F9 /* MJPropertyType.m */,
+				BC02058F1D9AC7B0007015F9 /* NSObject+MJClass.h */,
+				BC0205901D9AC7B0007015F9 /* NSObject+MJClass.m */,
+				BC0205911D9AC7B0007015F9 /* NSObject+MJCoding.h */,
+				BC0205921D9AC7B0007015F9 /* NSObject+MJCoding.m */,
+				BC0205931D9AC7B0007015F9 /* NSObject+MJKeyValue.h */,
+				BC0205941D9AC7B0007015F9 /* NSObject+MJKeyValue.m */,
+				BC0205951D9AC7B0007015F9 /* NSObject+MJProperty.h */,
+				BC0205961D9AC7B0007015F9 /* NSObject+MJProperty.m */,
+				BC0205971D9AC7B0007015F9 /* NSString+MJExtension.h */,
+				BC0205981D9AC7B0007015F9 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
 			sourceTree = "<group>";
 		};
 		BC033FCE1D973F8E008F40C8 /* JCTagListView */ = {
@@ -1689,6 +1773,7 @@
 		BC5469FD1D9A197200ACD118 /* SearchController */ = {
 			isa = PBXGroup;
 			children = (
+				BC02057D1D9AC2B9007015F9 /* Model */,
 				BC546A001D9A25F900ACD118 /* View */,
 				BC5469FE1D9A198C00ACD118 /* SearchController.swift */,
 			);
@@ -1699,6 +1784,8 @@
 			isa = PBXGroup;
 			children = (
 				BC546A011D9A262C00ACD118 /* SearchHeadCell.swift */,
+				BC0205791D9AB6DB007015F9 /* SearchReferralView.swift */,
+				BC02057B1D9AB6FE007015F9 /* SearchResultView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1895,6 +1982,7 @@
 				BC5276331D957B9D008FF647 /* POPAnimationExtras.mm in Sources */,
 				BC4564CF1D986B87007B3D32 /* PlaySongModel.swift in Sources */,
 				BC45650A1D98A4BF007B3D32 /* AFAutoPurgingImageCache.m in Sources */,
+				BC0205A51D9ACCCC007015F9 /* HCSearchListModel.m in Sources */,
 				BC46D91D1D970F5A00EAD1E8 /* NewSongFirstController.swift in Sources */,
 				BC01457B1D924518004C0950 /* FriendsModel.swift in Sources */,
 				BC0144841D924482004C0950 /* ViewController.swift in Sources */,
@@ -1903,11 +1991,14 @@
 				BC45650C1D98A4BF007B3D32 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				BC5276831D957BCC008FF647 /* UIScrollView+MJExtension.m in Sources */,
 				BC5469F51D9A10F100ACD118 /* SDWebImagePrefetcher.m in Sources */,
+				BC02057F1D9AC2D5007015F9 /* SearchInfoModel.swift in Sources */,
 				BC46D9231D972A3B00EAD1E8 /* SongListCell.swift in Sources */,
+				BC02059B1D9AC7B0007015F9 /* MJProperty.m in Sources */,
 				BC5469FC1D9A10F100ACD118 /* UIView+WebCacheOperation.m in Sources */,
 				BC45651A1D98C8DF007B3D32 /* LrcCell.swift in Sources */,
 				BC4564D31D986ED4007B3D32 /* PlayingMusicController.swift in Sources */,
 				BC444CDB1D93A6F6008F33BB /* PersonalController.swift in Sources */,
+				BC02059A1D9AC7B0007015F9 /* MJFoundation.m in Sources */,
 				BC01456E1D924518004C0950 /* PublishController.swift in Sources */,
 				BC01451E1D9244F5004C0950 /* JSONModelClassProperty.m in Sources */,
 				BC52775D1D95FC5E008FF647 /* SingController.swift in Sources */,
@@ -1917,6 +2008,7 @@
 				BC5469F61D9A10F100ACD118 /* UIButton+WebCache.m in Sources */,
 				BC4565021D98A4BF007B3D32 /* AFHTTPSessionManager.m in Sources */,
 				BC0145881D924518004C0950 /* UserInfo+CoreDataProperties.swift in Sources */,
+				BC0205A01D9AC7B0007015F9 /* NSObject+MJKeyValue.m in Sources */,
 				BC5277401D95C9CE008FF647 /* MusicTabBarController.swift in Sources */,
 				BC01458D1D924518004C0950 /* MeButton.swift in Sources */,
 				BC0145861D924518004C0950 /* MyTabBarController.swift in Sources */,
@@ -1933,6 +2025,7 @@
 				BC45651C1D98C8F9007B3D32 /* LrcLabel.swift in Sources */,
 				BC52775C1D95FC5E008FF647 /* HearController.swift in Sources */,
 				BC5276311D957B9D008FF647 /* POPAnimation.mm in Sources */,
+				BC0205821D9AC764007015F9 /* HCSearchInfoModel.m in Sources */,
 				BC52763C1D957B9D008FF647 /* POPLayerExtras.mm in Sources */,
 				BC52763F1D957B9D008FF647 /* POPSpringAnimation.mm in Sources */,
 				BC5277451D95F294008FF647 /* NavTitleView.swift in Sources */,
@@ -1947,6 +2040,7 @@
 				BC5276411D957B9D008FF647 /* TransformationMatrix.cpp in Sources */,
 				BC52763B1D957B9D008FF647 /* POPGeometry.mm in Sources */,
 				BC01458A1D924518004C0950 /* weibo.xcdatamodeld in Sources */,
+				BC02059D1D9AC7B0007015F9 /* MJPropertyType.m in Sources */,
 				BC5277601D95FC82008FF647 /* MyPlaySlider.swift in Sources */,
 				BC444CE91D93A724008F33BB /* MessageController.swift in Sources */,
 				BC5469FA1D9A10F100ACD118 /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -1957,6 +2051,7 @@
 				BC4564D11D986C8E007B3D32 /* LrcModel.swift in Sources */,
 				BC5276341D957B9D008FF647 /* POPAnimationRuntime.mm in Sources */,
 				BC0145241D9244F5004C0950 /* JSONValueTransformer.m in Sources */,
+				BC0205991D9AC7B0007015F9 /* MJExtensionConst.m in Sources */,
 				BC01457F1D924518004C0950 /* SettingViewController.swift in Sources */,
 				BC0144821D924482004C0950 /* AppDelegate.swift in Sources */,
 				BC5469FB1D9A10F100ACD118 /* UIImageView+WebCache.m in Sources */,
@@ -1965,6 +2060,7 @@
 				BC5469F31D9A10F100ACD118 /* SDWebImageDownloaderOperation.m in Sources */,
 				BC52767F1D957BCC008FF647 /* MJRefreshNormalHeader.m in Sources */,
 				BC01458E1D924518004C0950 /* MD5Tool.swift in Sources */,
+				BC02057A1D9AB6DB007015F9 /* SearchReferralView.swift in Sources */,
 				BC52763A1D957B9D008FF647 /* POPDecayAnimation.mm in Sources */,
 				BC01451D1D9244F5004C0950 /* JSONModel.m in Sources */,
 				BC46D9131D96E6B400EAD1E8 /* recommendModels.swift in Sources */,
@@ -1972,6 +2068,7 @@
 				BC4565111D98A4BF007B3D32 /* UIRefreshControl+AFNetworking.m in Sources */,
 				BC5276351D957B9D008FF647 /* POPAnimationTracer.mm in Sources */,
 				BC5469F01D9A10F100ACD118 /* SDWebImageCompat.m in Sources */,
+				BC02059E1D9AC7B0007015F9 /* NSObject+MJClass.m in Sources */,
 				BC01457D1D924518004C0950 /* MyUserModel.swift in Sources */,
 				BC0145781D924518004C0950 /* FollowersController.swift in Sources */,
 				BC5469F71D9A10F100ACD118 /* UIImage+GIF.m in Sources */,
@@ -1980,6 +2077,7 @@
 				BC5276761D957BCC008FF647 /* MJRefreshFooter.m in Sources */,
 				BC444CEB1D93A724008F33BB /* ContactsModel.swift in Sources */,
 				BC0145251D9244F5004C0950 /* MBProgressHUD.m in Sources */,
+				BC0205A11D9AC7B0007015F9 /* NSObject+MJProperty.m in Sources */,
 				BC4565181D98C7CF007B3D32 /* LrcView.swift in Sources */,
 				BC5276361D957B9D008FF647 /* POPAnimator.mm in Sources */,
 				BC5469F81D9A10F100ACD118 /* UIImage+MultiFormat.m in Sources */,
@@ -1990,6 +2088,7 @@
 				BC033FD51D973F8E008F40C8 /* JCCollectionViewTagFlowLayout.m in Sources */,
 				BC5276791D957BCC008FF647 /* MJRefreshAutoNormalFooter.m in Sources */,
 				BC0145871D924518004C0950 /* OAuthController.swift in Sources */,
+				BC02057C1D9AB6FE007015F9 /* SearchResultView.swift in Sources */,
 				BC46D9211D97294800EAD1E8 /* SongModel.swift in Sources */,
 				BC0145811D924518004C0950 /* HeaderView.swift in Sources */,
 				BC45650F1D98A4BF007B3D32 /* UIImageView+AFNetworking.m in Sources */,
@@ -2003,9 +2102,11 @@
 				BC46D91A1D96F14C00EAD1E8 /* XTADScrollView.m in Sources */,
 				BC5276821D957BCC008FF647 /* MJRefreshConst.m in Sources */,
 				BC444CDA1D93A6F6008F33BB /* PersonModel.swift in Sources */,
+				BC02059F1D9AC7B0007015F9 /* NSObject+MJCoding.m in Sources */,
 				BC45650B1D98A4BF007B3D32 /* AFImageDownloader.m in Sources */,
 				BC5276751D957BCC008FF647 /* MJRefreshComponent.m in Sources */,
 				BC033FD71D973F8E008F40C8 /* JCTagListView.m in Sources */,
+				BC0205A21D9AC7B0007015F9 /* NSString+MJExtension.m in Sources */,
 				BC444CD51D93A6F6008F33BB /* ChatViewController.swift in Sources */,
 				BC5276371D957B9D008FF647 /* POPBasicAnimation.mm in Sources */,
 				BC444CEF1D93A724008F33BB /* RightCell.swift in Sources */,
@@ -2018,6 +2119,7 @@
 				BC0144961D9244E6004C0950 /* BaseRequest.swift in Sources */,
 				BC4565121D98A4BF007B3D32 /* UIWebView+AFNetworking.m in Sources */,
 				BC52767B1D957BCC008FF647 /* MJRefreshBackGifFooter.m in Sources */,
+				BC02059C1D9AC7B0007015F9 /* MJPropertyKey.m in Sources */,
 				BC5469F21D9A10F100ACD118 /* SDWebImageDownloader.m in Sources */,
 				BC5277FD1D962661008FF647 /* MyToolBar.swift in Sources */,
 			);

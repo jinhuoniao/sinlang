@@ -20,5 +20,8 @@
 #import "POP.h"
 #import "XTADScrollView.h"
 #import "JCTagListView.h"
+#import "MJExtension.h"
+#import "HCSearchInfoModel.h"
+#import "HCSearchListModel.h"
 
 #endif /* BridgeHeader_h */

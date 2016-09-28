@@ -24,7 +24,7 @@ class SearchHeadCell: UITableViewHeaderFooterView {
         if button.characters.count > 0 {
             self.clickBtn.setTitle(button, forState: .Normal)
         } else {
-            self.clickBtn.hidden = true
+            //self.clickBtn.hidden = true
         }
     }
     

@@ -54,8 +54,6 @@ class HomePageCell: UITableViewCell {
         textL.textColor = UIColor.blackColor()
         textL.numberOfLines = 0
         
-        myView.backgroundColor = UIColor.yellowColor()
-        
         repostBtn.setImage(UIImage.init(named: "timeline_icon_retweet"), forState: .Normal)
         commentBtn.setImage(UIImage.init(named: "timeline_icon_comment"), forState: .Normal)
         attitudeBtn.setImage(UIImage.init(named: "timeline_icon_unlike"), forState: .Normal)
@@ -74,5 +72,73 @@ class HomePageCell: UITableViewCell {
         
     }
     
+    func removeSubViews() {
+        for v in myView.subviews {
+            v.removeFromSuperview()
+        }
+    }
+    
+    func setupMyView(arr: [String]) {
+        let myWidth = SCREEN_W - aSpace * 2
+        if arr.count > 0 {
+            var i = 0
+            if arr.count == 1 {
+                let img = UIImageView.init(frame: CGRectMake(aSpace, 0, myWidth / 2 * 1.5, myWidth / 2 * 1.5))
+                img.sd_setImageWithURL(NSURL.init(string: arr[0]))
+                self.myView.addSubview(img)
+            } else if arr.count <= 4 {
+                for _ in arr {
+                    let img = UIImageView.init(frame: CGRectMake(aSpace + CGFloat(i % 2) * myWidth / 2, CGFloat(i / 2) * myWidth / 2, myWidth / 2 - 3, myWidth / 2 - 3))
+                    img.sd_setImageWithURL(NSURL.init(string: arr[i]))
+                    self.myView.addSubview(img)
+                    i += 1
+                }
+            } else if arr.count <= 6 {
+                for _ in arr {
+                    let img = UIImageView.init(frame: CGRectMake(aSpace + CGFloat(i % 3) * myWidth / 3, CGFloat(i / 3) * myWidth / 3, myWidth / 3 - 2, myWidth / 3 - 2))
+                    img.sd_setImageWithURL(NSURL.init(string: arr[i]))
+                    self.myView.addSubview(img)
+                    i += 1
+                }
+            } else {
+                for _ in arr {
+                    let img = UIImageView.init(frame: CGRectMake(aSpace + CGFloat(i % 3) * myWidth / 3, CGFloat(i / 3) * myWidth / 3, myWidth / 3 - 2, myWidth / 3 - 2))
+                    img.sd_setImageWithURL(NSURL.init(string: arr[i]))
+                    self.myView.addSubview(img)
+                    i += 1
+                    if i > 8 {
+                        let label = UILabel.init(frame: CGRectMake(30, 50, 80, 30))
+                        label.text = "+更多"
+                        label.font = UIFont.boldSystemFontOfSize(25)
+                        label.textColor = UIColor.blackColor()
+                        label.backgroundColor = UIColor.init(white: 1, alpha: 0.5)
+                        img.addSubview(label)
+                        break
+                    }
+                }
+            }
+        }
+    }
+    
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

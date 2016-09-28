@@ -52,5 +52,6 @@ class CommentCell: UITableViewCell {
         
         textL.sd_layout().leftSpaceToView(self, aSpace).topSpaceToView(self.iconView,bSpace).rightSpaceToView(self, aSpace).bottomSpaceToView(self, bSpace)
         
+        
     }
 }

@@ -40,10 +40,26 @@ class HomePageModel: JSONModel {
             dic[NSFontAttributeName] = UIFont.boldSystemFontOfSize(18)
             height = str.boundingRectWithSize(CGSizeMake(width, CGFloat(MAXFLOAT)), options: [.UsesLineFragmentOrigin, .UsesFontLeading], attributes: dic, context: nil).size.height
         }
-        if self.bmiddlePic != nil {
-            
-        }
         return height
+    }
+    
+    func imgHeight(model: HomePageModel) -> CGFloat {
+        var height: CGFloat = 0
+        let arr = model.picUrls
+        if arr?.count > 0 {
+            if arr?.count == 1 {
+                height += (SCREEN_W - bSpace * 2) / 2 * 1.5
+            }else if arr?.count == 2 {
+                height += (SCREEN_W - bSpace * 2) / 2
+            }else if arr?.count <= 4 {
+                height += (SCREEN_W - bSpace * 2) 
+            } else if arr?.count <= 6 {
+                height += (SCREEN_W - bSpace * 2) / 3 * 2
+            } else {
+                height += (SCREEN_W - bSpace * 2)
+            }
+        }
+        return height + bSpace * 2
     }
 }
 
@@ -65,9 +81,9 @@ class UserModel: JSONModel {
 
 
 extension HomePageModel {
-    class func requestHomeData(callBack:(array: [AnyObject]?, error: NSError?) -> Void) {
+    class func requestHomeData(page: String, callBack:(array: [AnyObject]?, error: NSError?) -> Void) {
         let account = UserInfo.mytoken()
-        let para = ["access_token":account[1]]
+        let para = ["access_token":account[1],"page": page]
         let urlStr = "https://api.weibo.com/2/statuses/home_timeline.json"
         BaseRequest.getWithURL(urlStr, para: para) { (data, error) in
             if error == nil {

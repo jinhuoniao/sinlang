@@ -12,6 +12,7 @@ class HomePageController: UITableViewController {
 
     var account = [String]()
     var dataArr = NSMutableArray()
+    var page = 2
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "首页"
@@ -21,8 +22,16 @@ class HomePageController: UITableViewController {
         self.tableView.dataSource = self
         self.tableView.separatorStyle = .None
         self.tableView.mj_header = MJRefreshNormalHeader.init(refreshingBlock: {
-            self.homeMessage()
+            self.dataArr.removeAllObjects()
+            self.homeMessage("1")
+            self.page = 2
         })
+        
+        self.tableView.mj_footer = MJRefreshAutoFooter.init(refreshingBlock: { 
+            self.homeMessage("\(self.page)")
+            self.page += 1
+        })
+        
         tableView.mj_header.beginRefreshing()
     }
     
@@ -35,13 +44,13 @@ class HomePageController: UITableViewController {
         }
     }
     
-    func homeMessage() {
-        HomePageModel.requestHomeData { (array, error) in
+    func homeMessage(page: String) {
+        HomePageModel.requestHomeData (page) { (array, error) in
             if error == nil {
-                self.dataArr.removeAllObjects()
                 self.dataArr.addObjectsFromArray(array!)
                 self.tableView.reloadData()
                 self.tableView.mj_header.endRefreshing()
+                self.tableView.mj_footer.endRefreshing()
             } else {
                 print("请求出错")
             }
@@ -70,28 +79,26 @@ class HomePageController: UITableViewController {
         cell.commentBtn.tag = Int(model.id!)!
         cell.commentBtn.addTarget(self, action: #selector(self.commentBtnClick(_:)), forControlEvents: .TouchUpInside)
         cell.attitudeBtn.setTitle(model.attitudesCount!, forState: .Normal)
-//        if model.picUrls != nil {
-//            var arr = [String]()
-//            for pic in model.picUrls! {
-//                let dic = pic as! NSDictionary
-//                //arr.append(dic["thumbnail_pic"] as! String)
-//                arr.append(model.user!["avatar_hd"] as! String)
-//            }
-//            let myview = CommentView.init(frame: CGRectMake(0, 0, cell.myView.width, cell.myView.height), arr: arr)
-//            myview.backgroundColor = UIColor.greenColor()
-//            cell.myView = myview
-//            cell.setNeedsDisplay()
-//        } else {
-//            cell.myView.backgroundColor = UIColor.whiteColor()
-//        }
+        cell.removeSubViews()
+        cell.myView.height = model.imgHeight(model)
+        if model.picUrls?.count > 0 {
+            var arr = [String]()
+            for pic in model.picUrls! {
+                let dic = pic as! NSDictionary
+                arr.append(dic["thumbnail_pic"] as! String)
+            }
+            cell.setupMyView(arr)
+        }
+        cell.setNeedsDisplay()
         
         return cell
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         let model = dataArr[indexPath.row] as! HomePageModel
-        let h = model.height(model)
-        return 140 + h
+        let textH = model.height(model)
+        let imgH = model.imgHeight(model)
+        return 140 + textH + imgH
     }
     
     func commentBtnClick(btn: UIButton) {

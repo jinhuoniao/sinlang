@@ -14,16 +14,17 @@ class SearchController: UITableViewController, UISearchBarDelegate, SearchHeadCe
     var historyArray = NSArray()
     var hotSearchArray = NSMutableArray()
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.loadHotSearchData()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.yellowColor()
         self.setupSearchBar()
         self.tableView.separatorStyle = .None
-    }
-    
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        self.loadHotSearchData()
+        self.automaticallyAdjustsScrollViewInsets = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -72,6 +73,7 @@ class SearchController: UITableViewController, UISearchBarDelegate, SearchHeadCe
             head.setHeadTitle("热门搜索", button: "")
         } else {
             head.setHeadTitle("搜索记录", button: "清空")
+            head.delegate = self
         }
         return head
     }
@@ -153,11 +155,15 @@ class SearchController: UITableViewController, UISearchBarDelegate, SearchHeadCe
     }
     
     func pushToSearchResultView(text: String) {
-        
+        let result = SearchResultView()
+        result.setSearchText(text)
+        self.navigationController?.pushViewController(result, animated: true)
     }
     
     func pushToSearchRefferalView(text: String) {
-        
+        let referral = SearchReferralView()
+        referral.setSearchText(text)
+        self.navigationController?.pushViewController(referral, animated: false)
     }
 }
 
