@@ -16,6 +16,7 @@ class HomePageCell: UITableViewCell {
     var timeL = UILabel()
     var textL = UILabel()
     var myView = UIView()
+    var bView = UIView()
     var repostBtn = CommentBtn.init(type: .Custom)
     var commentBtn = CommentBtn.init(type: .Custom)
     var attitudeBtn = CommentBtn.init(type: .Custom)
@@ -39,9 +40,10 @@ class HomePageCell: UITableViewCell {
         self.addSubview(timeL)
         self.addSubview(textL)
         self.addSubview(myView)
-        self.addSubview(repostBtn)
-        self.addSubview(commentBtn)
-        self.addSubview(attitudeBtn)
+        self.addSubview(bView)
+        self.bView.addSubview(repostBtn)
+        self.bView.addSubview(commentBtn)
+        self.bView.addSubview(attitudeBtn)
         
         nameB.titleLabel?.font = UIFont.boldSystemFontOfSize(20)
         nameB.setTitleColor(UIColor.blueColor(), forState: .Normal)
@@ -61,12 +63,12 @@ class HomePageCell: UITableViewCell {
         iconView.sd_layout().leftSpaceToView(self, aSpace).topSpaceToView(self, aSpace).widthIs(50).heightIs(50)
         nameB.sd_layout().leftSpaceToView(self.iconView, aSpace).topSpaceToView(self,aSpace).heightIs(30).rightEqualToView(self)
         timeL.sd_layout().leftSpaceToView(self, aSpace).topSpaceToView(self.nameB, 0).heightIs(20).rightEqualToView(self)
+        bView.sd_layout().leftEqualToView(self).rightEqualToView(self).bottomEqualToView(self).heightIs(40)
+        repostBtn.sd_layout().leftSpaceToView(self.bView, 0).bottomSpaceToView(self.bView,2).heightIs(40).widthRatioToView(self.bView, 1/3)
+        commentBtn.sd_layout().bottomSpaceToView(self.bView, 2).heightIs(40).widthRatioToView(self.bView,1/3).leftSpaceToView(self.repostBtn, 0)
+        attitudeBtn.sd_layout().rightSpaceToView(self.bView, 0).bottomSpaceToView(self.bView, 2).heightIs(40).widthRatioToView(self, 1/3)
         
-        repostBtn.sd_layout().leftSpaceToView(self, aSpace).bottomSpaceToView(self,0).heightIs(40).widthRatioToView(self, 1/3)
-        commentBtn.sd_layout().bottomSpaceToView(self, 0).heightIs(40).widthRatioToView(self,1/3).leftSpaceToView(self.repostBtn, 0)
-        attitudeBtn.sd_layout().rightSpaceToView(self, aSpace).bottomSpaceToView(self, 0).heightIs(40).widthRatioToView(self, 1/3)
-        
-        myView.sd_layout().leftSpaceToView(self, aSpace).rightSpaceToView(self, aSpace).bottomSpaceToView(self.repostBtn,bSpace).heightIs(0.1)
+        myView.sd_layout().leftSpaceToView(self, aSpace).rightSpaceToView(self, aSpace).bottomSpaceToView(self.bView,bSpace).heightIs(0.1)
         
         textL.sd_layout().leftSpaceToView(self, aSpace).topSpaceToView(self.iconView,bSpace).rightSpaceToView(self, aSpace).bottomSpaceToView(self.myView, bSpace)
         

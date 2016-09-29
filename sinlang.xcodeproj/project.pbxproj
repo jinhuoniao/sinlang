@@ -272,6 +272,14 @@
 		BC5469FC1D9A10F100ACD118 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5469EC1D9A10F100ACD118 /* UIView+WebCacheOperation.m */; };
 		BC5469FF1D9A198C00ACD118 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5469FE1D9A198C00ACD118 /* SearchController.swift */; };
 		BC546A021D9A262C00ACD118 /* SearchHeadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC546A011D9A262C00ACD118 /* SearchHeadCell.swift */; };
+		BC66FD8E1D9C712A009288ED /* WriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66FD8D1D9C712A009288ED /* WriteController.swift */; };
+		BC66FD901D9C7986009288ED /* MyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66FD8F1D9C7986009288ED /* MyInfo.swift */; };
+		BC66FD941D9C942D009288ED /* ScienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66FD931D9C942D009288ED /* ScienceController.swift */; };
+		BC66FD961D9C9457009288ED /* MeMoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66FD951D9C9457009288ED /* MeMoreController.swift */; };
+		BC66FD981D9C9C74009288ED /* MeConfigura.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66FD971D9C9C74009288ED /* MeConfigura.swift */; };
+		BC66FD9A1D9CB6BF009288ED /* ScienceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66FD991D9CB6BF009288ED /* ScienceModel.swift */; };
+		BC66FD9C1D9CB8D9009288ED /* ScienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66FD9B1D9CB8D9009288ED /* ScienceCell.swift */; };
+		BC66FD9E1D9CC30E009288ED /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66FD9D1D9CC30E009288ED /* WebController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -662,6 +670,14 @@
 		BC5469EC1D9A10F100ACD118 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		BC5469FE1D9A198C00ACD118 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		BC546A011D9A262C00ACD118 /* SearchHeadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHeadCell.swift; sourceTree = "<group>"; };
+		BC66FD8D1D9C712A009288ED /* WriteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteController.swift; sourceTree = "<group>"; };
+		BC66FD8F1D9C7986009288ED /* MyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfo.swift; sourceTree = "<group>"; };
+		BC66FD931D9C942D009288ED /* ScienceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScienceController.swift; sourceTree = "<group>"; };
+		BC66FD951D9C9457009288ED /* MeMoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeMoreController.swift; sourceTree = "<group>"; };
+		BC66FD971D9C9C74009288ED /* MeConfigura.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeConfigura.swift; sourceTree = "<group>"; };
+		BC66FD991D9CB6BF009288ED /* ScienceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScienceModel.swift; sourceTree = "<group>"; };
+		BC66FD9B1D9CB8D9009288ED /* ScienceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScienceCell.swift; sourceTree = "<group>"; };
+		BC66FD9D1D9CC30E009288ED /* WebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -701,6 +717,7 @@
 			children = (
 				BC0145381D924518004C0950 /* classes */,
 				BC52773C1D95C941008FF647 /* MusicController */,
+				BC66FD911D9C93BA009288ED /* MoreController */,
 				BC0144811D924482004C0950 /* AppDelegate.swift */,
 				BC0144831D924482004C0950 /* ViewController.swift */,
 				BC0144851D924482004C0950 /* Main.storyboard */,
@@ -868,6 +885,7 @@
 			isa = PBXGroup;
 			children = (
 				BC01453A1D924518004C0950 /* PublishController.swift */,
+				BC66FD8D1D9C712A009288ED /* WriteController.swift */,
 			);
 			path = AddController;
 			sourceTree = "<group>";
@@ -892,6 +910,7 @@
 				BC01454D1D924518004C0950 /* FriendsModel.swift */,
 				BC01454E1D924518004C0950 /* Mine.plist */,
 				BC01454F1D924518004C0950 /* MyUserModel.swift */,
+				BC66FD8F1D9C7986009288ED /* MyInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1790,6 +1809,27 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		BC66FD911D9C93BA009288ED /* MoreController */ = {
+			isa = PBXGroup;
+			children = (
+				BC66FD951D9C9457009288ED /* MeMoreController.swift */,
+				BC66FD971D9C9C74009288ED /* MeConfigura.swift */,
+				BC66FD921D9C940E009288ED /* ScienceController */,
+			);
+			path = MoreController;
+			sourceTree = "<group>";
+		};
+		BC66FD921D9C940E009288ED /* ScienceController */ = {
+			isa = PBXGroup;
+			children = (
+				BC66FD931D9C942D009288ED /* ScienceController.swift */,
+				BC66FD991D9CB6BF009288ED /* ScienceModel.swift */,
+				BC66FD9B1D9CB8D9009288ED /* ScienceCell.swift */,
+				BC66FD9D1D9CC30E009288ED /* WebController.swift */,
+			);
+			path = ScienceController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1997,6 +2037,7 @@
 				BC5469FC1D9A10F100ACD118 /* UIView+WebCacheOperation.m in Sources */,
 				BC45651A1D98C8DF007B3D32 /* LrcCell.swift in Sources */,
 				BC4564D31D986ED4007B3D32 /* PlayingMusicController.swift in Sources */,
+				BC66FD901D9C7986009288ED /* MyInfo.swift in Sources */,
 				BC444CDB1D93A6F6008F33BB /* PersonalController.swift in Sources */,
 				BC02059A1D9AC7B0007015F9 /* MJFoundation.m in Sources */,
 				BC01456E1D924518004C0950 /* PublishController.swift in Sources */,
@@ -2010,6 +2051,7 @@
 				BC0145881D924518004C0950 /* UserInfo+CoreDataProperties.swift in Sources */,
 				BC0205A01D9AC7B0007015F9 /* NSObject+MJKeyValue.m in Sources */,
 				BC5277401D95C9CE008FF647 /* MusicTabBarController.swift in Sources */,
+				BC66FD9C1D9CB8D9009288ED /* ScienceCell.swift in Sources */,
 				BC01458D1D924518004C0950 /* MeButton.swift in Sources */,
 				BC0145861D924518004C0950 /* MyTabBarController.swift in Sources */,
 				BC0144971D9244E6004C0950 /* BaseSetting.swift in Sources */,
@@ -2025,6 +2067,7 @@
 				BC45651C1D98C8F9007B3D32 /* LrcLabel.swift in Sources */,
 				BC52775C1D95FC5E008FF647 /* HearController.swift in Sources */,
 				BC5276311D957B9D008FF647 /* POPAnimation.mm in Sources */,
+				BC66FD9E1D9CC30E009288ED /* WebController.swift in Sources */,
 				BC0205821D9AC764007015F9 /* HCSearchInfoModel.m in Sources */,
 				BC52763C1D957B9D008FF647 /* POPLayerExtras.mm in Sources */,
 				BC52763F1D957B9D008FF647 /* POPSpringAnimation.mm in Sources */,
@@ -2042,8 +2085,10 @@
 				BC01458A1D924518004C0950 /* weibo.xcdatamodeld in Sources */,
 				BC02059D1D9AC7B0007015F9 /* MJPropertyType.m in Sources */,
 				BC5277601D95FC82008FF647 /* MyPlaySlider.swift in Sources */,
+				BC66FD981D9C9C74009288ED /* MeConfigura.swift in Sources */,
 				BC444CE91D93A724008F33BB /* MessageController.swift in Sources */,
 				BC5469FA1D9A10F100ACD118 /* UIImageView+HighlightedWebCache.m in Sources */,
+				BC66FD941D9C942D009288ED /* ScienceController.swift in Sources */,
 				BC4565051D98A4BF007B3D32 /* AFURLRequestSerialization.m in Sources */,
 				BC5469EE1D9A10F100ACD118 /* NSData+ImageContentType.m in Sources */,
 				BC5276C11D958570008FF647 /* PlayerModel.swift in Sources */,
@@ -2061,6 +2106,7 @@
 				BC52767F1D957BCC008FF647 /* MJRefreshNormalHeader.m in Sources */,
 				BC01458E1D924518004C0950 /* MD5Tool.swift in Sources */,
 				BC02057A1D9AB6DB007015F9 /* SearchReferralView.swift in Sources */,
+				BC66FD9A1D9CB6BF009288ED /* ScienceModel.swift in Sources */,
 				BC52763A1D957B9D008FF647 /* POPDecayAnimation.mm in Sources */,
 				BC01451D1D9244F5004C0950 /* JSONModel.m in Sources */,
 				BC46D9131D96E6B400EAD1E8 /* recommendModels.swift in Sources */,
@@ -2096,6 +2142,7 @@
 				BC5277431D95CA0B008FF647 /* MusicTabBar.swift in Sources */,
 				BC5276BC1D958526008FF647 /* PlayerController.swift in Sources */,
 				BC45650D1D98A4BF007B3D32 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				BC66FD8E1D9C712A009288ED /* WriteController.swift in Sources */,
 				BC5469F41D9A10F100ACD118 /* SDWebImageManager.m in Sources */,
 				BC0145921D924518004C0950 /* MyTabBar.swift in Sources */,
 				BC52763E1D957B9D008FF647 /* POPPropertyAnimation.mm in Sources */,
@@ -2114,6 +2161,7 @@
 				BC4564D51D98708B007B3D32 /* PlayMusicExtension.swift in Sources */,
 				BC5276451D957BAA008FF647 /* DMHeartFlyView.m in Sources */,
 				BC0145891D924518004C0950 /* UserInfo.swift in Sources */,
+				BC66FD961D9C9457009288ED /* MeMoreController.swift in Sources */,
 				BC5276321D957B9D008FF647 /* POPAnimationEvent.mm in Sources */,
 				BC444CDE1D93A6F6008F33BB /* PersonalHeadView.swift in Sources */,
 				BC0144961D9244E6004C0950 /* BaseRequest.swift in Sources */,

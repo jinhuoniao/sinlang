@@ -29,7 +29,7 @@ class PublishController: UIViewController {
     
     func setupButtons() {
         let images = ["publish-video","publish-picture","publish-text","publish-audio","publish-review","publish-offline"]
-        let titles = ["发视频","发图片","发段子","发声音","听音乐","离线下载"]
+        let titles = ["发视频","发图片","发微博","发声音","听音乐","离线下载"]
         let count = images.count
         let maxColsCount = 3
         let rowsCount = CGFloat((count + maxColsCount - 1) / maxColsCount)
@@ -76,7 +76,10 @@ class PublishController: UIViewController {
         let index = self.buttons.indexOfObject(button)
         switch index {
         case 2:
-            print("文字")
+            let write = WriteController()
+            write.titleStr = "写微博"
+            write.textPlace = "写微博..."
+            self.presentViewController(write, animated: true, completion: nil)
         case 4:
             let musicController = MusicTabBarController()
             self.presentViewController(musicController, animated: true, completion: nil)

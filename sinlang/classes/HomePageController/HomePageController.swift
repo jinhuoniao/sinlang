@@ -13,22 +13,22 @@ class HomePageController: UITableViewController {
     var account = [String]()
     var dataArr = NSMutableArray()
     var page = 2
+    let user = MyInfo.shareUser
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "首页"
         account = UserInfo.mytoken()
+        self.getMyInfo()
         self.tableView.registerClass(HomePageCell.self, forCellReuseIdentifier: "HomePageCell")
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.tableView.separatorStyle = .None
         self.tableView.mj_header = MJRefreshNormalHeader.init(refreshingBlock: {
-            self.dataArr.removeAllObjects()
-            self.homeMessage("1")
+            self.homeMessage("1", tag: 1)
             self.page = 2
         })
         
         self.tableView.mj_footer = MJRefreshAutoFooter.init(refreshingBlock: { 
-            self.homeMessage("\(self.page)")
+            self.homeMessage("\(self.page)", tag: 2)
             self.page += 1
         })
         
@@ -44,9 +44,22 @@ class HomePageController: UITableViewController {
         }
     }
     
-    func homeMessage(page: String) {
+    func getMyInfo() {
+        MyUserModel.requestInfo(self.account[1], uId: self.account[0], callBack: { (dict, error) in
+            if error == nil {
+                MyInfo.shareUser.name = (dict!["screen_name"] as? String)!
+                self.navigationItem.title = MyInfo.shareUser.name
+            }
+        })
+
+    }
+    
+    func homeMessage(page: String, tag: Int) {
         HomePageModel.requestHomeData (page) { (array, error) in
             if error == nil {
+                if tag == 1 {
+                    self.dataArr.removeAllObjects()
+                }
                 self.dataArr.addObjectsFromArray(array!)
                 self.tableView.reloadData()
                 self.tableView.mj_header.endRefreshing()

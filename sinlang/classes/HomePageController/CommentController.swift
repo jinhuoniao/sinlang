@@ -14,23 +14,50 @@ class CommentController: UIViewController, UITableViewDelegate, UITableViewDataS
     var accessToken = ""
     var dataArr = NSMutableArray()
     lazy var tableView: UITableView = {
-        let tableView = UITableView.init(frame: CGRectMake(0, 64, SCREEN_W, SCREEN_H), style: UITableViewStyle.Plain)
+        let tableView = UITableView.init(frame: CGRectMake(0, 64, SCREEN_W, SCREEN_H - 104), style: UITableViewStyle.Plain)
         tableView.registerClass(CommentCell.self, forCellReuseIdentifier: "CommentCell")
         tableView.delegate = self
         tableView.dataSource = self
         self.view.addSubview(tableView)
         return tableView
     }()
+    
+    let bView = UIView()
+    var repostBtn = CommentBtn.init(type: .Custom)
+    var commentBtn = CommentBtn.init(type: .Custom)
+    var attitudeBtn = CommentBtn.init(type: .Custom)
+    var page = 2
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.grayColor()
-        self.getData()
+        self.setupViews()
+        self.getData(1)
         self.automaticallyAdjustsScrollViewInsets = false
+        self.tableView.mj_footer = MJRefreshAutoFooter.init(refreshingBlock: { 
+            self.getData(self.page)
+            self.page += 1
+        })
     }
     
-    func getData() {
+    func setupViews() {
+        self.view.addSubview(bView)
+        self.bView.addSubview(repostBtn)
+        self.bView.addSubview(commentBtn)
+        self.bView.addSubview(attitudeBtn)
+        repostBtn.setImage(UIImage.init(named: "timeline_icon_retweet"), forState: .Normal)
+        commentBtn.setImage(UIImage.init(named: "timeline_icon_comment"), forState: .Normal)
+        commentBtn.addTarget(self, action: #selector(self.commentBtnClick), forControlEvents: .TouchUpInside)
+        attitudeBtn.setImage(UIImage.init(named: "timeline_icon_unlike"), forState: .Normal)
+        bView.sd_layout().leftEqualToView(self.view).rightEqualToView(self.view).bottomEqualToView(self.view).heightIs(40)
+        repostBtn.sd_layout().leftSpaceToView(self.bView, 0).bottomSpaceToView(self.bView,2).heightIs(38).widthRatioToView(self.bView, 1/3)
+        commentBtn.sd_layout().bottomSpaceToView(self.bView, 2).heightIs(38).widthRatioToView(self.bView,1/3).leftSpaceToView(self.repostBtn, 0)
+        attitudeBtn.sd_layout().rightSpaceToView(self.bView, 0).bottomSpaceToView(self.bView, 2).heightIs(38).widthRatioToView(self.bView, 1/3)
+    }
+    
+    func getData(page: Int) {
         let urlStr = "https://api.weibo.com/2/comments/show.json"
-        let para = ["access_token":accessToken,"id":"\(weiboId)"]
+        let para = ["access_token":accessToken,"id":"\(weiboId)", "page": "\(page)"]
         
         BaseRequest.getWithURL(urlStr, para: para) { (data, error) in
             if error != nil {
@@ -88,6 +115,29 @@ class CommentController: UIViewController, UITableViewDelegate, UITableViewDataS
         self.navigationController?.pushViewController(person, animated: true)
     }
     
-    
-
+    func commentBtnClick() {
+        let CV = WriteController()
+        CV.titleStr = "发评论"
+        CV.textPlace = "写评论..."
+        CV.weiboId = "\(self.weiboId)"
+        self.presentViewController(CV, animated: true, completion: nil)
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

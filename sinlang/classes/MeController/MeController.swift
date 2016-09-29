@@ -11,7 +11,7 @@ import UIKit
 class MeController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     var headImage :UIImageView! = nil
-    var  nickL:UILabel! = nil
+    var nickL:UILabel! = nil
     let account = UserInfo.mytoken()
     lazy var tableView:UITableView = {
         
@@ -193,6 +193,14 @@ class MeController: UIViewController,UITableViewDelegate,UITableViewDataSource {
         let  view = UIView.init(frame: CGRectMake(0, 0, self.view.frame.size.width, 1))
         view.backgroundColor = UIColor.init(red: 0.95, green: 0.95, blue: 0.95, alpha: 1)
         return view
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if indexPath.section == 4 {
+            let more = MeMoreController()
+            more.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(more, animated: true)
+        }
     }
     
     
