@@ -196,6 +196,11 @@ class MeController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if indexPath.section == 0 && indexPath.row == 0 {
+            let weather = WeatherController()
+            weather.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(weather, animated: true)
+        }
         if indexPath.section == 4 {
             let more = MeMoreController()
             more.hidesBottomBarWhenPushed = true

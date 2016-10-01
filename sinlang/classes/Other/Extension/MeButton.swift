@@ -15,17 +15,15 @@ class MeButton: UIButton {
     
     
     override func layoutSubviews() {
+        
         self.numLabel = UILabel.init(frame: CGRectMake(self.width / 3, self.height / 4, self.width / 3, self.height / 4))
         self.explainLabel = UILabel.init(frame: CGRectMake(self.width / 3, self.height / 2, self.width / 3, self.height / 4))
-        
-        
         
         
         numLabel.textColor = UIColor.blackColor()
         numLabel.font = UIFont.boldSystemFontOfSize(14)
         numLabel.textAlignment = .Center
 
-        
         
         explainLabel.textColor = UIColor.blackColor()
         explainLabel.font = UIFont.systemFontOfSize(12)
@@ -36,6 +34,6 @@ class MeButton: UIButton {
         self.addSubview(explainLabel)
         
     }
-    
+
 
 }

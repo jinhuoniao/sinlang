@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
-    <entity name="UserInfo" representedClassName=".UserInfo" syncable="YES">
+    <entity name="CityInfo" representedClassName=".CityInfo" isAbstract="YES" syncable="YES">
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cn_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="en_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="province" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName=".UserInfo" isAbstract="YES" syncable="YES">
         <attribute name="access_token" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="expires_in" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
         <element name="UserInfo" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="CityInfo" positionX="-63" positionY="9" width="128" height="120"/>
     </elements>
 </model>

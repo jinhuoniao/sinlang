@@ -89,6 +89,16 @@
 		BC033FD51D973F8E008F40C8 /* JCCollectionViewTagFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC033FD01D973F8E008F40C8 /* JCCollectionViewTagFlowLayout.m */; };
 		BC033FD61D973F8E008F40C8 /* JCTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC033FD21D973F8E008F40C8 /* JCTagCell.m */; };
 		BC033FD71D973F8E008F40C8 /* JCTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC033FD41D973F8E008F40C8 /* JCTagListView.m */; };
+		BC08C3211D9DB3ED00143070 /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C3201D9DB3ED00143070 /* WeatherController.swift */; };
+		BC08C3271D9DB75300143070 /* CityInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C3251D9DB75300143070 /* CityInfo+CoreDataProperties.swift */; };
+		BC08C3281D9DB75300143070 /* CityInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C3261D9DB75300143070 /* CityInfo.swift */; };
+		BC08C32D1D9DCFE000143070 /* CityInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C32C1D9DCFE000143070 /* CityInfoModel.swift */; };
+		BC08C32F1D9DD94900143070 /* WeatherPreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C32E1D9DD94900143070 /* WeatherPreController.swift */; };
+		BC08C3341D9DEAE600143070 /* WeatherHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C3331D9DEAE600143070 /* WeatherHeaderView.swift */; };
+		BC08C3371D9DEC5700143070 /* QualityButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C3361D9DEC5700143070 /* QualityButton.swift */; };
+		BC08C3391D9DEE2100143070 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C3381D9DEE2100143070 /* WeatherButton.swift */; };
+		BC08C33B1D9DFD7400143070 /* WeatherPublicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C33A1D9DFD7400143070 /* WeatherPublicView.swift */; };
+		BC08C33D1D9E15C800143070 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC08C33C1D9E15C800143070 /* WeatherModel.swift */; };
 		BC444CD51D93A6F6008F33BB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CC91D93A6F6008F33BB /* ChatViewController.swift */; };
 		BC444CD61D93A6F6008F33BB /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CCA1D93A6F6008F33BB /* CommentController.swift */; };
 		BC444CD71D93A6F6008F33BB /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444CCB1D93A6F6008F33BB /* HomePageController.swift */; };
@@ -129,6 +139,17 @@
 		BC4565181D98C7CF007B3D32 /* LrcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4565171D98C7CF007B3D32 /* LrcView.swift */; };
 		BC45651A1D98C8DF007B3D32 /* LrcCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4565191D98C8DF007B3D32 /* LrcCell.swift */; };
 		BC45651C1D98C8F9007B3D32 /* LrcLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC45651B1D98C8F9007B3D32 /* LrcLabel.swift */; };
+		BC4606711D9EBABA005F0CFA /* HourlyForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4606701D9EBABA005F0CFA /* HourlyForecastCell.swift */; };
+		BC4606731D9EBB3E005F0CFA /* HourlyForecastLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4606721D9EBB3E005F0CFA /* HourlyForecastLabel.swift */; };
+		BC46071E1D9EE410005F0CFA /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC46071D1D9EE410005F0CFA /* timg.jpg */; };
+		BC4607201D9EE608005F0CFA /* MyHeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46071F1D9EE608005F0CFA /* MyHeaderSectionView.swift */; };
+		BC4607221D9EE89C005F0CFA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4607211D9EE89C005F0CFA /* ButtonView.swift */; };
+		BC4607251D9EF91C005F0CFA /* NewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4607241D9EF91C005F0CFA /* NewModel.swift */; };
+		BC4607271D9F1870005F0CFA /* DayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4607261D9F1870005F0CFA /* DayLabel.swift */; };
+		BC4607291D9F1A05005F0CFA /* NightLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4607281D9F1A05005F0CFA /* NightLabel.swift */; };
+		BC46072B1D9F1BD0005F0CFA /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46072A1D9F1BD0005F0CFA /* WeatherCell.swift */; };
+		BC46072D1D9F4FDB005F0CFA /* ThreeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46072C1D9F4FDB005F0CFA /* ThreeButton.swift */; };
+		BC46072F1D9F58C4005F0CFA /* LifeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46072E1D9F58C4005F0CFA /* LifeCell.swift */; };
 		BC46D9101D96DBF700EAD1E8 /* NewestMusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46D90F1D96DBF700EAD1E8 /* NewestMusicCell.swift */; };
 		BC46D9131D96E6B400EAD1E8 /* recommendModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46D9121D96E6B400EAD1E8 /* recommendModels.swift */; };
 		BC46D9191D96F14C00EAD1E8 /* CycleImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC46D9161D96F14C00EAD1E8 /* CycleImageCell.m */; };
@@ -396,6 +417,16 @@
 		BC033FD21D973F8E008F40C8 /* JCTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTagCell.m; sourceTree = "<group>"; };
 		BC033FD31D973F8E008F40C8 /* JCTagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTagListView.h; sourceTree = "<group>"; };
 		BC033FD41D973F8E008F40C8 /* JCTagListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTagListView.m; sourceTree = "<group>"; };
+		BC08C3201D9DB3ED00143070 /* WeatherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
+		BC08C3251D9DB75300143070 /* CityInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CityInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BC08C3261D9DB75300143070 /* CityInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityInfo.swift; sourceTree = "<group>"; };
+		BC08C32C1D9DCFE000143070 /* CityInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityInfoModel.swift; sourceTree = "<group>"; };
+		BC08C32E1D9DD94900143070 /* WeatherPreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherPreController.swift; sourceTree = "<group>"; };
+		BC08C3331D9DEAE600143070 /* WeatherHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherHeaderView.swift; sourceTree = "<group>"; };
+		BC08C3361D9DEC5700143070 /* QualityButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityButton.swift; sourceTree = "<group>"; };
+		BC08C3381D9DEE2100143070 /* WeatherButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		BC08C33A1D9DFD7400143070 /* WeatherPublicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherPublicView.swift; sourceTree = "<group>"; };
+		BC08C33C1D9E15C800143070 /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		BC444CC91D93A6F6008F33BB /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		BC444CCA1D93A6F6008F33BB /* CommentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
 		BC444CCB1D93A6F6008F33BB /* HomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
@@ -454,6 +485,17 @@
 		BC4565171D98C7CF007B3D32 /* LrcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LrcView.swift; sourceTree = "<group>"; };
 		BC4565191D98C8DF007B3D32 /* LrcCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LrcCell.swift; sourceTree = "<group>"; };
 		BC45651B1D98C8F9007B3D32 /* LrcLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LrcLabel.swift; sourceTree = "<group>"; };
+		BC4606701D9EBABA005F0CFA /* HourlyForecastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyForecastCell.swift; sourceTree = "<group>"; };
+		BC4606721D9EBB3E005F0CFA /* HourlyForecastLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyForecastLabel.swift; sourceTree = "<group>"; };
+		BC46071D1D9EE410005F0CFA /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
+		BC46071F1D9EE608005F0CFA /* MyHeaderSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHeaderSectionView.swift; sourceTree = "<group>"; };
+		BC4607211D9EE89C005F0CFA /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		BC4607241D9EF91C005F0CFA /* NewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewModel.swift; sourceTree = "<group>"; };
+		BC4607261D9F1870005F0CFA /* DayLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayLabel.swift; sourceTree = "<group>"; };
+		BC4607281D9F1A05005F0CFA /* NightLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightLabel.swift; sourceTree = "<group>"; };
+		BC46072A1D9F1BD0005F0CFA /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		BC46072C1D9F4FDB005F0CFA /* ThreeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeButton.swift; sourceTree = "<group>"; };
+		BC46072E1D9F58C4005F0CFA /* LifeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeCell.swift; sourceTree = "<group>"; };
 		BC46D90F1D96DBF700EAD1E8 /* NewestMusicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewestMusicCell.swift; sourceTree = "<group>"; };
 		BC46D9121D96E6B400EAD1E8 /* recommendModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recommendModels.swift; sourceTree = "<group>"; };
 		BC46D9151D96F14C00EAD1E8 /* CycleImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleImageCell.h; sourceTree = "<group>"; };
@@ -718,6 +760,7 @@
 				BC0145381D924518004C0950 /* classes */,
 				BC52773C1D95C941008FF647 /* MusicController */,
 				BC66FD911D9C93BA009288ED /* MoreController */,
+				BC08C31F1D9DB30E00143070 /* WeatherController */,
 				BC0144811D924482004C0950 /* AppDelegate.swift */,
 				BC0144831D924482004C0950 /* ViewController.swift */,
 				BC0144851D924482004C0950 /* Main.storyboard */,
@@ -733,6 +776,7 @@
 		BC0144981D9244F5004C0950 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				BC46071D1D9EE410005F0CFA /* timg.jpg */,
 				BC5277831D960F82008FF647 /* icons */,
 				BC5276951D957D50008FF647 /* button */,
 				BC52769E1D957D50008FF647 /* publish */,
@@ -896,9 +940,9 @@
 				BC0145491D924518004C0950 /* FollowersController.swift */,
 				BC01454A1D924518004C0950 /* FriendsController.swift */,
 				BC01454B1D924518004C0950 /* MeController.swift */,
-				BC01454C1D924518004C0950 /* Model */,
 				BC0145501D924518004C0950 /* MyWeiboController.swift */,
 				BC0145511D924518004C0950 /* SettingViewController.swift */,
+				BC01454C1D924518004C0950 /* Model */,
 				BC0145521D924518004C0950 /* View */,
 			);
 			path = MeController;
@@ -954,6 +998,8 @@
 				BC01455F1D924518004C0950 /* UserInfo+CoreDataProperties.swift */,
 				BC0145601D924518004C0950 /* UserInfo.swift */,
 				BC0145611D924518004C0950 /* weibo.xcdatamodeld */,
+				BC08C3251D9DB75300143070 /* CityInfo+CoreDataProperties.swift */,
+				BC08C3261D9DB75300143070 /* CityInfo.swift */,
 			);
 			path = coreData;
 			sourceTree = "<group>";
@@ -1039,6 +1085,55 @@
 				BC033FD41D973F8E008F40C8 /* JCTagListView.m */,
 			);
 			path = JCTagListView;
+			sourceTree = "<group>";
+		};
+		BC08C31F1D9DB30E00143070 /* WeatherController */ = {
+			isa = PBXGroup;
+			children = (
+				BC08C3351D9DEBF000143070 /* Other */,
+				BC08C3301D9DE9B100143070 /* View */,
+				BC08C3291D9DCF7900143070 /* Model */,
+				BC4607231D9EF8FB005F0CFA /* Model2 */,
+				BC08C3201D9DB3ED00143070 /* WeatherController.swift */,
+				BC08C32E1D9DD94900143070 /* WeatherPreController.swift */,
+			);
+			path = WeatherController;
+			sourceTree = "<group>";
+		};
+		BC08C3291D9DCF7900143070 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC08C32C1D9DCFE000143070 /* CityInfoModel.swift */,
+				BC08C33C1D9E15C800143070 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC08C3301D9DE9B100143070 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC08C3331D9DEAE600143070 /* WeatherHeaderView.swift */,
+				BC08C33A1D9DFD7400143070 /* WeatherPublicView.swift */,
+				BC4606701D9EBABA005F0CFA /* HourlyForecastCell.swift */,
+				BC46072A1D9F1BD0005F0CFA /* WeatherCell.swift */,
+				BC46072E1D9F58C4005F0CFA /* LifeCell.swift */,
+				BC4606721D9EBB3E005F0CFA /* HourlyForecastLabel.swift */,
+				BC46071F1D9EE608005F0CFA /* MyHeaderSectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC08C3351D9DEBF000143070 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BC08C3361D9DEC5700143070 /* QualityButton.swift */,
+				BC08C3381D9DEE2100143070 /* WeatherButton.swift */,
+				BC4607211D9EE89C005F0CFA /* ButtonView.swift */,
+				BC4607261D9F1870005F0CFA /* DayLabel.swift */,
+				BC4607281D9F1A05005F0CFA /* NightLabel.swift */,
+				BC46072C1D9F4FDB005F0CFA /* ThreeButton.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		BC444CC81D93A6F6008F33BB /* HomePageController */ = {
@@ -1196,6 +1291,14 @@
 				BC4565011D98A4BF007B3D32 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		BC4607231D9EF8FB005F0CFA /* Model2 */ = {
+			isa = PBXGroup;
+			children = (
+				BC4607241D9EF91C005F0CFA /* NewModel.swift */,
+			);
+			path = Model2;
 			sourceTree = "<group>";
 		};
 		BC46D90E1D96DBD500EAD1E8 /* View */ = {
@@ -1924,6 +2027,7 @@
 				BC5277CD1D960F82008FF647 /* Contents.json in Resources */,
 				BC0145081D9244F5004C0950 /* tabbar_compose_background_icon_add@2x.png in Resources */,
 				BC5277DA1D960F82008FF647 /* icon_ios_list.png in Resources */,
+				BC46071E1D9EE410005F0CFA /* timg.jpg in Resources */,
 				BC5276AC1D957D50008FF647 /* 点赞.png in Resources */,
 				BC5276B11D957D50008FF647 /* publish-text@3x.png in Resources */,
 				BC5277EF1D960F82008FF647 /* Contents.json in Resources */,
@@ -1993,13 +2097,16 @@
 				BC5276801D957BCC008FF647 /* MJRefreshStateHeader.m in Sources */,
 				BC444CD71D93A6F6008F33BB /* HomePageController.swift in Sources */,
 				BC4565031D98A4BF007B3D32 /* AFNetworkReachabilityManager.m in Sources */,
+				BC08C3391D9DEE2100143070 /* WeatherButton.swift in Sources */,
 				BC4565071D98A4BF007B3D32 /* AFURLSessionManager.m in Sources */,
 				BC0145911D924518004C0950 /* MyTool.swift in Sources */,
 				BC52775E1D95FC5E008FF647 /* WatchController.swift in Sources */,
 				BC01457E1D924518004C0950 /* MyWeiboController.swift in Sources */,
+				BC08C32F1D9DD94900143070 /* WeatherPreController.swift in Sources */,
 				BC5276381D957B9D008FF647 /* POPCGUtils.mm in Sources */,
 				BC444CDC1D93A6F6008F33BB /* CommentCell.swift in Sources */,
 				BC45650E1D98A4BF007B3D32 /* UIButton+AFNetworking.m in Sources */,
+				BC4607291D9F1A05005F0CFA /* NightLabel.swift in Sources */,
 				BC0145901D924518004C0950 /* MyPromptTool.swift in Sources */,
 				BC0145801D924518004C0950 /* FriendsCell.swift in Sources */,
 				BC46D9191D96F14C00EAD1E8 /* CycleImageCell.m in Sources */,
@@ -2020,12 +2127,14 @@
 				BC0145221D9244F5004C0950 /* JSONModel+networking.m in Sources */,
 				BC444CD61D93A6F6008F33BB /* CommentController.swift in Sources */,
 				BC5276331D957B9D008FF647 /* POPAnimationExtras.mm in Sources */,
+				BC46072F1D9F58C4005F0CFA /* LifeCell.swift in Sources */,
 				BC4564CF1D986B87007B3D32 /* PlaySongModel.swift in Sources */,
 				BC45650A1D98A4BF007B3D32 /* AFAutoPurgingImageCache.m in Sources */,
 				BC0205A51D9ACCCC007015F9 /* HCSearchListModel.m in Sources */,
 				BC46D91D1D970F5A00EAD1E8 /* NewSongFirstController.swift in Sources */,
 				BC01457B1D924518004C0950 /* FriendsModel.swift in Sources */,
 				BC0144841D924482004C0950 /* ViewController.swift in Sources */,
+				BC4606731D9EBB3E005F0CFA /* HourlyForecastLabel.swift in Sources */,
 				BC5276C41D95857A008FF647 /* DiscoverCell.swift in Sources */,
 				BC52767C1D957BCC008FF647 /* MJRefreshBackNormalFooter.m in Sources */,
 				BC45650C1D98A4BF007B3D32 /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -2035,12 +2144,15 @@
 				BC46D9231D972A3B00EAD1E8 /* SongListCell.swift in Sources */,
 				BC02059B1D9AC7B0007015F9 /* MJProperty.m in Sources */,
 				BC5469FC1D9A10F100ACD118 /* UIView+WebCacheOperation.m in Sources */,
+				BC4607271D9F1870005F0CFA /* DayLabel.swift in Sources */,
 				BC45651A1D98C8DF007B3D32 /* LrcCell.swift in Sources */,
 				BC4564D31D986ED4007B3D32 /* PlayingMusicController.swift in Sources */,
 				BC66FD901D9C7986009288ED /* MyInfo.swift in Sources */,
 				BC444CDB1D93A6F6008F33BB /* PersonalController.swift in Sources */,
 				BC02059A1D9AC7B0007015F9 /* MJFoundation.m in Sources */,
+				BC46072B1D9F1BD0005F0CFA /* WeatherCell.swift in Sources */,
 				BC01456E1D924518004C0950 /* PublishController.swift in Sources */,
+				BC08C3341D9DEAE600143070 /* WeatherHeaderView.swift in Sources */,
 				BC01451E1D9244F5004C0950 /* JSONModelClassProperty.m in Sources */,
 				BC52775D1D95FC5E008FF647 /* SingController.swift in Sources */,
 				BC4565061D98A4BF007B3D32 /* AFURLResponseSerialization.m in Sources */,
@@ -2078,12 +2190,14 @@
 				BC5276B41D957D9D008FF647 /* PublishButton.swift in Sources */,
 				BC5469F91D9A10F100ACD118 /* UIImage+WebP.m in Sources */,
 				BC4565041D98A4BF007B3D32 /* AFSecurityPolicy.m in Sources */,
+				BC08C3371D9DEC5700143070 /* QualityButton.swift in Sources */,
 				BC52767E1D957BCC008FF647 /* MJRefreshGifHeader.m in Sources */,
 				BC01458B1D924518004C0950 /* CommentBtn.swift in Sources */,
 				BC5276411D957B9D008FF647 /* TransformationMatrix.cpp in Sources */,
 				BC52763B1D957B9D008FF647 /* POPGeometry.mm in Sources */,
 				BC01458A1D924518004C0950 /* weibo.xcdatamodeld in Sources */,
 				BC02059D1D9AC7B0007015F9 /* MJPropertyType.m in Sources */,
+				BC4607251D9EF91C005F0CFA /* NewModel.swift in Sources */,
 				BC5277601D95FC82008FF647 /* MyPlaySlider.swift in Sources */,
 				BC66FD981D9C9C74009288ED /* MeConfigura.swift in Sources */,
 				BC444CE91D93A724008F33BB /* MessageController.swift in Sources */,
@@ -2091,22 +2205,29 @@
 				BC66FD941D9C942D009288ED /* ScienceController.swift in Sources */,
 				BC4565051D98A4BF007B3D32 /* AFURLRequestSerialization.m in Sources */,
 				BC5469EE1D9A10F100ACD118 /* NSData+ImageContentType.m in Sources */,
+				BC08C32D1D9DCFE000143070 /* CityInfoModel.swift in Sources */,
 				BC5276C11D958570008FF647 /* PlayerModel.swift in Sources */,
 				BC5469F11D9A10F100ACD118 /* SDWebImageDecoder.m in Sources */,
 				BC4564D11D986C8E007B3D32 /* LrcModel.swift in Sources */,
 				BC5276341D957B9D008FF647 /* POPAnimationRuntime.mm in Sources */,
 				BC0145241D9244F5004C0950 /* JSONValueTransformer.m in Sources */,
+				BC08C3271D9DB75300143070 /* CityInfo+CoreDataProperties.swift in Sources */,
 				BC0205991D9AC7B0007015F9 /* MJExtensionConst.m in Sources */,
 				BC01457F1D924518004C0950 /* SettingViewController.swift in Sources */,
+				BC46072D1D9F4FDB005F0CFA /* ThreeButton.swift in Sources */,
 				BC0144821D924482004C0950 /* AppDelegate.swift in Sources */,
+				BC08C33B1D9DFD7400143070 /* WeatherPublicView.swift in Sources */,
+				BC08C3211D9DB3ED00143070 /* WeatherController.swift in Sources */,
 				BC5469FB1D9A10F100ACD118 /* UIImageView+WebCache.m in Sources */,
 				BC444CD91D93A6F6008F33BB /* HomePageModel.swift in Sources */,
 				BC033FD61D973F8E008F40C8 /* JCTagCell.m in Sources */,
 				BC5469F31D9A10F100ACD118 /* SDWebImageDownloaderOperation.m in Sources */,
 				BC52767F1D957BCC008FF647 /* MJRefreshNormalHeader.m in Sources */,
 				BC01458E1D924518004C0950 /* MD5Tool.swift in Sources */,
+				BC08C3281D9DB75300143070 /* CityInfo.swift in Sources */,
 				BC02057A1D9AB6DB007015F9 /* SearchReferralView.swift in Sources */,
 				BC66FD9A1D9CB6BF009288ED /* ScienceModel.swift in Sources */,
+				BC08C33D1D9E15C800143070 /* WeatherModel.swift in Sources */,
 				BC52763A1D957B9D008FF647 /* POPDecayAnimation.mm in Sources */,
 				BC01451D1D9244F5004C0950 /* JSONModel.m in Sources */,
 				BC46D9131D96E6B400EAD1E8 /* recommendModels.swift in Sources */,
@@ -2130,6 +2251,7 @@
 				BC5276841D957BCC008FF647 /* UIScrollView+MJRefresh.m in Sources */,
 				BC0145791D924518004C0950 /* FriendsController.swift in Sources */,
 				BC0145231D9244F5004C0950 /* JSONKeyMapper.m in Sources */,
+				BC4607221D9EE89C005F0CFA /* ButtonView.swift in Sources */,
 				BC444CEE1D93A724008F33BB /* LeftCell.swift in Sources */,
 				BC033FD51D973F8E008F40C8 /* JCCollectionViewTagFlowLayout.m in Sources */,
 				BC5276791D957BCC008FF647 /* MJRefreshAutoNormalFooter.m in Sources */,
@@ -2145,6 +2267,7 @@
 				BC66FD8E1D9C712A009288ED /* WriteController.swift in Sources */,
 				BC5469F41D9A10F100ACD118 /* SDWebImageManager.m in Sources */,
 				BC0145921D924518004C0950 /* MyTabBar.swift in Sources */,
+				BC4607201D9EE608005F0CFA /* MyHeaderSectionView.swift in Sources */,
 				BC52763E1D957B9D008FF647 /* POPPropertyAnimation.mm in Sources */,
 				BC46D91A1D96F14C00EAD1E8 /* XTADScrollView.m in Sources */,
 				BC5276821D957BCC008FF647 /* MJRefreshConst.m in Sources */,
@@ -2152,6 +2275,7 @@
 				BC02059F1D9AC7B0007015F9 /* NSObject+MJCoding.m in Sources */,
 				BC45650B1D98A4BF007B3D32 /* AFImageDownloader.m in Sources */,
 				BC5276751D957BCC008FF647 /* MJRefreshComponent.m in Sources */,
+				BC4606711D9EBABA005F0CFA /* HourlyForecastCell.swift in Sources */,
 				BC033FD71D973F8E008F40C8 /* JCTagListView.m in Sources */,
 				BC0205A21D9AC7B0007015F9 /* NSString+MJExtension.m in Sources */,
 				BC444CD51D93A6F6008F33BB /* ChatViewController.swift in Sources */,
